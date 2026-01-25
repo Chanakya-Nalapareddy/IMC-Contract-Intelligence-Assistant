@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Data (do not commit real contracts)
+data/raw/**
+data/interim/**
+data/processed/**
+
+# Keep registry + README placeholders
+!data/registry/**
+!data/**/.gitkeep
+
+# Env
+.env

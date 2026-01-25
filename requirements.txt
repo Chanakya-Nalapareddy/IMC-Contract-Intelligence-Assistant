@@ -1,0 +1,8 @@
+pandas
+pydantic
+python-dotenv
+tqdm
+pymupdf
+pdfplumber
+python-docx
+openpyxl
