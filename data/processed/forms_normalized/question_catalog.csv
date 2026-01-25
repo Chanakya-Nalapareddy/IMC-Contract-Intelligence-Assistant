@@ -1,0 +1,127 @@
+question_id,question_text,answer_type,source_column
+Q_are_the_subcontractor_bids_bid_tabs_required_to_be_4cc56833,Are the Subcontractor Bids / Bid Tabs Required to be Provided to Owner?,boolean,Are the Subcontractor Bids / Bid Tabs Required to be Provided to Owner?
+Q_are_there_any_contract_agreement_specifications_co_7e263fb9,Are there any Contract Agreement / Specifications Containing BIM Requirements?,boolean,Are there any Contract Agreement / Specifications Containing BIM Requirements?
+Q_are_there_consequential_damages_on_the_project_07e3d5cb,Are there Consequential Damages on the Project?,boolean,Are there Consequential Damages on the Project?
+Q_are_there_general_conditions_requirements_owner_au_501d0389,Are there General Conditions / Requirements Owner Audit Provisions?,boolean,Are there General Conditions / Requirements Owner Audit Provisions?
+Q_are_there_liquidated_damages_on_the_project_f041db27,Are there Liquidated Damages on the Project?,boolean,Are there Liquidated Damages on the Project?
+Q_are_there_payment_terms_for_retainage_on_fee_192a19a1,Are there Payment Terms for Retainage on Fee?,boolean,Are there Payment Terms for Retainage on Fee?
+Q_are_there_payment_terms_for_retainage_on_general_c_97461de6,Are there Payment Terms for Retainage on General Conditions?,boolean,Are there Payment Terms for Retainage on General Conditions?
+Q_are_there_project_interim_milestones_da5384b9,Are there Project Interim Milestones?,boolean,Are there Project Interim Milestones?
+Q_can_owner_mandate_specific_subcontractors_be_used_9b8ab21e,Can Owner Mandate Specific Subcontractors be used?,boolean,Can Owner Mandate Specific Subcontractors be used?
+Q_do_gmp_buyout_savings_need_to_be_reported_to_owner_e4d3c905,Do GMP Buyout Savings need to be Reported to Owner?,boolean,Do GMP Buyout Savings need to be Reported to Owner?
+Q_do_we_have_a_precon_agreement_b668e987,Do we have a Precon Agreement?,boolean,Do we have a Precon Agreement?
+Q_does_a_subcontractor_award_have_to_be_approved_by__33d15cc4,Does a Subcontractor Award have to be Approved by Owner?,boolean,Does a Subcontractor Award have to be Approved by Owner?
+Q_hazardous_materials_imc_is_entitled_to_stop_work_a_8e737d42,"Hazardous Materials - IMC is Entitled to Stop Work, and Recover Cost for Delay for Encountered Hazardous Material",boolean,"Hazardous Materials - IMC is Entitled to Stop Work, and Recover Cost for Delay for Encountered Hazardous Material"
+Q_hazardous_materials_imc_is_only_responsible_conten_d0ad3cae,Hazardous Materials - IMC is Only Responsible Content Created by Us or our Subcontractors,boolean,Hazardous Materials - IMC is Only Responsible Content Created by Us or our Subcontractors
+Q_how_many_adverse_weather_days_included_in_contract_fcc5bc90,How many Adverse Weather Days Included in Contract Agreement?,text,How many Adverse Weather Days Included in Contract Agreement?
+Q_how_many_days_after_mediator_selection_is_the_medi_a3a5b179,How many days after Mediator Selection is the Mediation Session?,text,How many days after Mediator Selection is the Mediation Session?
+Q_how_many_days_notice_must_the_owner_give_imc_for_c_823f7a11,How many days notice must the Owner give IMC for CM Termination for Cause?,text,How many days notice must the Owner give IMC for CM Termination for Cause?
+Q_how_many_days_notice_must_the_owner_give_imc_for_c_c63c4f31,How many days notice must the Owner give IMC for CM Termination for Convenience?,text,How many days notice must the Owner give IMC for CM Termination for Convenience?
+Q_how_many_days_within_approved_application_for_owne_ea73566f,How many days within Approved Application for Owner Payment?,text,How many days within Approved Application for Owner Payment?
+Q_how_much_concealed_unknown_hazardous_conditions_no_604b83b4,How much Concealed / Unknown / Hazardous Conditions Notice to Owner Requirements (Within What # of Days)?,text,How much Concealed / Unknown / Hazardous Conditions Notice to Owner Requirements (Within What # of Days)?
+Q_how_much_schedule_delay_time_issues_notice_to_owne_b9c53cef,How much Schedule Delay / Time Issues Notice to Owner Requirements (Within What # of Days)?,text,How much Schedule Delay / Time Issues Notice to Owner Requirements (Within What # of Days)?
+Q_if_the_owner_is_allowed_to_occupy_building_prior_t_f224a038,"If the Owner is Allowed to Occupy Building Prior to Substantial Completion, what is the Article #?",text,"If the Owner is Allowed to Occupy Building Prior to Substantial Completion, what is the Article #?"
+Q_is_a_payment_performance_bond_required_for_this_pr_62c79f18,Is a Payment & Performance Bond Required for this project?,boolean,Is a Payment & Performance Bond Required for this project?
+Q_is_imc_entitled_a_pcco_for_owner_selected_mandated_6ae40fe3,Is IMC Entitled a PCCO for Owner Selected / Mandated Subcontractors?,boolean,Is IMC Entitled a PCCO for Owner Selected / Mandated Subcontractors?
+Q_is_imc_or_the_owner_carrying_the_builders_risk_pol_eb66818e,Is IMC or the Owner carrying the Builder's Risk Policy for this project?,text,Is IMC or the Owner carrying the Builder's Risk Policy for this project?
+Q_is_imc_responsible_to_recover_delay_cost_schedule__e82b2e6e,Is IMC Responsible to Recover Delay (Cost & Schedule) for labor related work stoppage; strike etc.?,boolean,Is IMC Responsible to Recover Delay (Cost & Schedule) for labor related work stoppage; strike etc.?
+Q_is_owner_allowed_to_occupy_building_prior_to_subst_ecaf1644,Is Owner Allowed to Occupy Building Prior to Substantial Completion Article?,boolean,Is Owner Allowed to Occupy Building Prior to Substantial Completion Article?
+Q_is_pollution_liability_insurance_required_for_this_55e2acae,Is Pollution Liability Insurance Required for this project?,boolean,Is Pollution Liability Insurance Required for this project?
+Q_is_precon_reimbursable_beyond_the_agreement_28605b1d,Is Precon Reimbursable beyond the Agreement?,boolean,Is Precon Reimbursable beyond the Agreement?
+Q_is_professional_liability_insurance_required_for_t_f16d47e0,Is Professional Liability Insurance Required for this project?,boolean,Is Professional Liability Insurance Required for this project?
+Q_is_railroad_insurance_required_for_this_project_3b26eca4,Is Railroad Insurance Required for this project?,boolean,Is Railroad Insurance Required for this project?
+Q_is_there_a_mutual_waiver_of_consequential_damages__88506df0,Is there a mutual waiver of Consequential Damages in the Contract?,boolean,Is there a mutual waiver of Consequential Damages in the Contract?
+Q_list_all_contract_agreement_exhibit_appendix_lette_80d79d68,List all Contract Agreement Exhibit / Appendix (Letter / Number /Name),text,List all Contract Agreement Exhibit / Appendix (Letter / Number /Name)
+Q_list_the_owner_project_required_reports_01571777,List the Owner / Project Required Reports,text,List the Owner / Project Required Reports
+Q_must_the_gmp_buyout_savings_be_shown_on_monthly_sc_e8351449,Must the GMP Buyout Savings be Shown on Monthly Schedule of Values?,boolean,Must the GMP Buyout Savings be Shown on Monthly Schedule of Values?
+Q_must_use_of_buyout_savings_for_trade_costs_be_appr_7a0c38b0,Must Use of Buyout Savings for Trade Costs be Approved by Owner?,boolean,Must Use of Buyout Savings for Trade Costs be Approved by Owner?
+Q_project_interim_milestones_list_a23ea12c,Project Interim Milestones List,text,Project Interim Milestones List
+Q_what_are_the_adverse_weather_days_terms_conditions_3232cebb,What are the Adverse Weather Days Terms & Conditions?,text,What are the Adverse Weather Days Terms & Conditions?
+Q_what_are_the_are_the_consequential_damages_terms_c_a735b277,What are the are the Consequential Damages Terms & Conditions?,text,What are the are the Consequential Damages Terms & Conditions?
+Q_what_are_the_are_the_liquidated_damages_terms_cond_87cf2aa9,What are the are the Liquidated Damages Terms & Conditions?,text,What are the are the Liquidated Damages Terms & Conditions?
+Q_what_are_the_as_built_record_documents_requirement_511644ff,What are the As-Built / Record Documents Requirements?,text,What are the As-Built / Record Documents Requirements?
+Q_what_are_the_concealed_unknown_hazardous_condition_b8de7aff,What are the Concealed / Unknown / Hazardous Conditions Terms & Conditions?,text,What are the Concealed / Unknown / Hazardous Conditions Terms & Conditions?
+Q_what_are_the_contingency_usage_owner_notification__17eb4916,What are the Contingency Usage Owner Notification Requirements?,text,What are the Contingency Usage Owner Notification Requirements?
+Q_what_are_the_contingency_usage_terms_and_condition_a768bce0,What are the Contingency Usage Terms and Conditions?,text,What are the Contingency Usage Terms and Conditions?
+Q_what_are_the_contract_documents_definition_incorpo_5effaaf7,"What are the Contract Documents Definition & Incorporation Definitions, Terms, & Conditions?",text,"What are the Contract Documents Definition & Incorporation Definitions, Terms, & Conditions?"
+Q_what_are_the_cyber_indemnification_hacking_article_9a929120,What are the Cyber Indemnification / Hacking Article Terms & Conditions?,text,What are the Cyber Indemnification / Hacking Article Terms & Conditions?
+Q_what_are_the_daily_log_manpower_terms_and_conditio_5debe6b0,What are the Daily Log & Manpower Terms and Conditions?,text,What are the Daily Log & Manpower Terms and Conditions?
+Q_what_are_the_final_payment_terms_conditions_061b119c,What are the Final Payment Terms & Conditions?,text,What are the Final Payment Terms & Conditions?
+Q_what_are_the_general_conditions_billing_backup_req_54445dab,What are the General Conditions Billing Backup Requirements?,text,What are the General Conditions Billing Backup Requirements?
+Q_what_are_the_gmp_buyout_savings_definition_terms_c_da485495,What are the GMP Buyout Savings Definition & Terms & Conditions?,text,What are the GMP Buyout Savings Definition & Terms & Conditions?
+Q_what_are_the_gmp_shared_savings_terms_conditions_210e0777,What are the GMP Shared Savings Terms & Conditions?,text,What are the GMP Shared Savings Terms & Conditions?
+Q_what_are_the_payment_performance_bond_article_term_d3be8247,What are the Payment & Performance Bond Article Terms & Conditions?,text,What are the Payment & Performance Bond Article Terms & Conditions?
+Q_what_are_the_payment_terms_conditions_for_retainag_83f1a62b,What are the Payment Terms & Conditions for Retainage Reduction?,text,What are the Payment Terms & Conditions for Retainage Reduction?
+Q_what_are_the_payment_terms_retainage_d1b8987d,What are the Payment Terms Retainage %?,text,What are the Payment Terms Retainage %?
+Q_what_are_the_precon_reimbursable_terms_conditions_df240479,What are the Precon Reimbursable Terms & Conditions?,text,What are the Precon Reimbursable Terms & Conditions?
+Q_what_are_the_schedule_acceleration_directed_by_own_2818c524,What are the Schedule Acceleration Directed by Owner Terms & Conditions?,text,What are the Schedule Acceleration Directed by Owner Terms & Conditions?
+Q_what_are_the_schedule_definitions_of_days_work_cal_40c60fed,What are the Schedule Definitions of Days (Work / Calendar / Holidays / Etc.)?,text,What are the Schedule Definitions of Days (Work / Calendar / Holidays / Etc.)?
+Q_what_are_the_schedule_delay_time_issues_terms_cond_300ff40d,What are the Schedule Delay / Time Issues Terms & Conditions?,text,What are the Schedule Delay / Time Issues Terms & Conditions?
+Q_what_are_the_schedule_requirements_terms_condition_82dcf987,What are the Schedule Requirements Terms & Conditions?,text,What are the Schedule Requirements Terms & Conditions?
+Q_what_are_the_subcontractor_bids_bid_tabs_provided__3ccc6af1,What are the Subcontractor Bids / Bid Tabs Provided to Owner Terms & Conditions?,text,What are the Subcontractor Bids / Bid Tabs Provided to Owner Terms & Conditions?
+Q_what_are_the_submittal_alternates_substitutions_co_87aa50cd,"What are the Submittal Alternates, Substitutions, & Contract Document Deviations Terms & Conditions?",text,"What are the Submittal Alternates, Substitutions, & Contract Document Deviations Terms & Conditions?"
+Q_what_are_the_substantial_completion_terms_conditio_cd6ad6cf,What are the Substantial Completion Terms & Conditions?,text,What are the Substantial Completion Terms & Conditions?
+Q_what_are_the_terms_and_conditions_for_payment_of_o_2179b244,What are the Terms and Conditions for Payment of Offsite Stored Material?,text,What are the Terms and Conditions for Payment of Offsite Stored Material?
+Q_what_are_the_terms_conditions_for_imcs_stop_work_a_874a2f84,What are the Terms & Conditions for IMC's Stop Work Ability for late Owner payment?,text,What are the Terms & Conditions for IMC's Stop Work Ability for late Owner payment?
+Q_what_are_the_terms_conditions_imcs_obligations_for_c72d85a8,What are the Terms & Conditions / IMC's obligations for Design Document Review?,text,What are the Terms & Conditions / IMC's obligations for Design Document Review?
+Q_what_are_the_warranty_terms_conditions_08c159ac,What are the Warranty Terms & Conditions?,text,What are the Warranty Terms & Conditions?
+Q_what_is_the_adverse_weather_days_article_8e34852f,What is the Adverse Weather Days Article #?,text,What is the Adverse Weather Days Article #?
+Q_what_is_the_aia_form_of_contract_agreement_e847e373,What is the AIA Form of Contract Agreement?,text,What is the AIA Form of Contract Agreement?
+Q_what_is_the_article_for_consequential_liquidated_d_fe0ea44b,What is the Article # for Consequential & Liquidated Damages?,text,What is the Article # for Consequential & Liquidated Damages?
+Q_what_is_the_article_for_imcs_stop_work_ability_for_f14b27fd,What is the Article # for IMC's Stop Work Ability for late Owner payment?,text,What is the Article # for IMC's Stop Work Ability for late Owner payment?
+Q_what_is_the_as_built_record_documents_requirements_6b302c30,What is the As-Built / Record Documents Requirements Article #?,text,What is the As-Built / Record Documents Requirements Article #?
+Q_what_is_the_bid_number_for_this_bid_project_typica_ebf68433,What is the Bid Number for this Bid / Project? (Typically BYY.###) Example = B23.123,text,What is the Bid Number for this Bid / Project? (Typically BYY.###) Example = B23.123
+Q_what_is_the_builders_risk_5a7ee621,What is the Builders Risk %?,text,What is the Builders Risk %?
+Q_what_is_the_builders_risk_deductible_29ee7145,What is the Builders Risk Deductible? ($),text,What is the Builders Risk Deductible? ($)
+Q_what_is_the_builders_risk_waiver_of_subrogation_ap_b1cf817f,What is the Builders Risk Waiver of Subrogation Appendix / Exhibit (Letter or Number) if the Owner Carries the Policy,text,What is the Builders Risk Waiver of Subrogation Appendix / Exhibit (Letter or Number) if the Owner Carries the Policy
+Q_what_is_the_ccip_rate_for_this_project_0b7319ee,What is the CCIP Rate % for this Project?,number,What is the CCIP Rate % for this Project?
+Q_what_is_the_change_markup_ccip_491f5ef7,What is the Change Markup - CCIP %?,text,What is the Change Markup - CCIP %?
+Q_what_is_the_change_markup_cm_insurance_a1592b77,What is the Change Markup - CM Insurance %?,number,What is the Change Markup - CM Insurance %?
+Q_what_is_the_change_markup_general_conditions_2fd67d80,What is the Change Markup - General Conditions %?,text,What is the Change Markup - General Conditions %?
+Q_what_is_the_change_markup_imc_fee_6bcea155,What is the Change Markup - IMC Fee %?,text,What is the Change Markup - IMC Fee %?
+Q_what_is_the_change_markup_p_p_bond_429cf07a,What is the Change Markup - P & P Bond %?,text,What is the Change Markup - P & P Bond %?
+Q_what_is_the_change_markup_subcontractor_55b6d0cf,What is the Change Markup - Subcontractor %?,text,What is the Change Markup - Subcontractor %?
+Q_what_is_the_change_markup_tiered_subcontractor_fa209fef,What is the Change Markup - Tiered Subcontractor %?,text,What is the Change Markup - Tiered Subcontractor %?
+Q_what_is_the_change_markup_warranty_02b80e0d,What is the Change Markup - Warranty %?,text,What is the Change Markup - Warranty %?
+Q_what_is_the_cm_suspension_termination_article_cda40523,What is the CM Suspension / Termination Article #?,text,What is the CM Suspension / Termination Article #?
+Q_what_is_the_concealed_unknown_hazardous_conditions_4a2cbdc1,What is the Concealed / Unknown / Hazardous Conditions Article #?,text,What is the Concealed / Unknown / Hazardous Conditions Article #?
+Q_what_is_the_contingency_usage_article_70477995,What is the Contingency Usage Article #?,text,What is the Contingency Usage Article #?
+Q_what_is_the_contract_documents_definition_incorpor_7c13bb57,What is the Contract Documents Definition & Incorporation Article #?,text,What is the Contract Documents Definition & Incorporation Article #?
+Q_what_is_the_contract_type_for_this_project_custom__b1e4d0da,What is the Contract Type for this Project? (Custom Text Answer),text,What is the Contract Type for this Project? (Custom Text Answer)
+Q_what_is_the_cost_of_the_work_article_6fd93242,What is the Cost of the Work Article #?,text,What is the Cost of the Work Article #?
+Q_what_is_the_cyber_indemnification_hacking_article_79142b12,What is the Cyber Indemnification / Hacking Article #?,text,What is the Cyber Indemnification / Hacking Article #?
+Q_what_is_the_daily_log_manpower_article_eb6cf54e,What is the Daily Log & Manpower Article #?,text,What is the Daily Log & Manpower Article #?
+Q_what_is_the_definition_for_the_cost_of_the_work_36e447cc,What is the definition for the Cost of the Work?,text,What is the definition for the Cost of the Work?
+Q_what_is_the_definition_of_general_conditions_for_t_39ce80e3,What is the definition of General Conditions for this project? (01 v 50 Code Split),text,What is the definition of General Conditions for this project? (01 v 50 Code Split)
+Q_what_is_the_direct_negotiation_duration_of_days_33edb52d,What is the Direct Negotiation Duration (# of Days)?,text,What is the Direct Negotiation Duration (# of Days)?
+Q_what_is_the_dispute_resolution_article_6f3ae454,What is the Dispute Resolution Article #?,text,What is the Dispute Resolution Article #?
+Q_what_is_the_execution_date_of_the_contract_agreeme_87d300d6,What is the Execution Date of the Contract Agreement?,date,What is the Execution Date of the Contract Agreement?
+Q_what_is_the_final_completion_definition_9f438b94,What is the Final Completion Definition?,text,What is the Final Completion Definition?
+Q_what_is_the_final_completion_definition_article_e725bdbc,What is the Final Completion Definition Article #?,text,What is the Final Completion Definition Article #?
+Q_what_is_the_final_payment_article_40389356,What is the Final Payment Article #?,text,What is the Final Payment Article #?
+Q_what_is_the_general_conditions_rate_sheet_appendix_d8927298,"What is the General Conditions Rate Sheet Appendix / Exhibit (A,B,C,D, Etc.)?",text,"What is the General Conditions Rate Sheet Appendix / Exhibit (A,B,C,D, Etc.)?"
+Q_what_is_the_general_conditions_rate_sheet_year_3d07d5cb,What is the General Conditions Rate Sheet Year?,date,What is the General Conditions Rate Sheet Year?
+Q_what_is_the_general_conditions_type_c3934099,What is the General Conditions Type?,text,What is the General Conditions Type?
+Q_what_is_the_gmp_buyout_savings_article_87379ae6,What is the GMP Buyout Savings Article #?,text,What is the GMP Buyout Savings Article #?
+Q_what_is_the_gmp_shared_savings_article_9ada3ee2,What is the GMP Shared Savings Article #?,text,What is the GMP Shared Savings Article #?
+Q_what_is_the_imc_design_document_review_obligations_975d7ec4,What is the IMC Design Document Review obligations Article #?,text,What is the IMC Design Document Review obligations Article #?
+Q_what_is_the_imc_fee_for_this_project_4036d178,What is the IMC Fee % for this Project?,text,What is the IMC Fee % for this Project?
+Q_what_is_the_labor_d0dda2f4,What is the Labor?,text,What is the Labor?
+Q_what_is_the_mediation_duration_of_days_37db05d1,What is the Mediation Duration (# of Days)?,text,What is the Mediation Duration (# of Days)?
+Q_what_is_the_mediator_selection_duration_of_days_cda6946e,What is the Mediator Selection Duration (# of Days)?,text,What is the Mediator Selection Duration (# of Days)?
+Q_what_is_the_payment_performance_bond_article_8986fb88,What is the Payment & Performance Bond Article #?,text,What is the Payment & Performance Bond Article #?
+Q_what_is_the_payment_terms_for_offsite_stored_mater_9f0437f5,What is the Payment Terms for Offsite Stored Material Article #?,text,What is the Payment Terms for Offsite Stored Material Article #?
+Q_what_is_the_payment_terms_for_retainage_reduction__7ae7d504,What is the Payment Terms for Retainage Reduction Article #?,text,What is the Payment Terms for Retainage Reduction Article #?
+Q_what_is_the_payment_terms_progress_final_article_cb3ec7ca,What is the Payment Terms (Progress & Final) Article #?,text,What is the Payment Terms (Progress & Final) Article #?
+Q_what_is_the_precon_reimbursable_contract_article_48f583ee,What is the Precon Reimbursable Contract Article #?,text,What is the Precon Reimbursable Contract Article #?
+Q_what_is_the_project_number_for_this_project_typica_a25c9b59,What is the Project Number for this Project? (Typically YY.###) Example = 23.123,text,What is the Project Number for this Project? (Typically YY.###) Example = 23.123
+Q_what_is_the_schedule_acceleration_directed_by_owne_beff7c20,What is the Schedule Acceleration Directed by Owner Article #?,text,What is the Schedule Acceleration Directed by Owner Article #?
+Q_what_is_the_schedule_delay_time_issues_article_df9e6c89,What is the Schedule Delay / Time Issues Article #?,text,What is the Schedule Delay / Time Issues Article #?
+Q_what_is_the_schedule_requirements_article_3b6abf2e,What is the Schedule Requirements Article #?,text,What is the Schedule Requirements Article #?
+Q_what_is_the_subcontractor_bid_requirements_article_df183d7a,What is the Subcontractor Bid Requirements Article #?,text,What is the Subcontractor Bid Requirements Article #?
+Q_what_is_the_subcontractor_required_number_of_bids__24303036,What is the Subcontractor Required Number of Bids per package?,text,What is the Subcontractor Required Number of Bids per package?
+Q_what_is_the_submittal_alternates_substitutions_con_f03f50ba,"What is the Submittal Alternates, Substitutions, & Contract Document Deviations Article #?",text,"What is the Submittal Alternates, Substitutions, & Contract Document Deviations Article #?"
+Q_what_is_the_substantial_completion_article_094bd6e3,What is the Substantial Completion Article #?,text,What is the Substantial Completion Article #?
+Q_what_is_the_warranty_terms_conditions_article_1b7dd347,What is the Warranty Terms & Conditions Article #?,text,What is the Warranty Terms & Conditions Article #?
+Q_who_is_responsible_to_pay_the_builders_risk_deduct_5c71a414,Who is Responsible to pay the Builders Risk Deductible? (May Vary Depending on Amount),text,Who is Responsible to pay the Builders Risk Deductible? (May Vary Depending on Amount)
+Q_within_how_many_days_must_we_notify_the_owner_of_a_59a3786f,Within how many days must we notify the owner of adverse weather day impacts?,text,Within how many days must we notify the owner of adverse weather day impacts?
