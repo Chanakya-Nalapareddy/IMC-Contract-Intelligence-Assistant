@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contract Evaluation Report</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      color: #222;
+      background: #fff;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: #1f3b5b;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 36px;
+      color: #1f3b5b;
+      border-bottom: 2px solid #e6edf5;
+      padding-bottom: 8px;
+    }
+
+    .meta {
+      margin-bottom: 24px;
+      line-height: 1.8;
+    }
+
+    .report-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 12px;
+      margin-bottom: 24px;
+      font-size: 14px;
+    }
+
+    .report-table th,
+    .report-table td {
+      border: 1px solid #d9e2ec;
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .report-table th {
+      background-color: #f4f7fb;
+      font-weight: 700;
+    }
+
+    .report-table tr:nth-child(even) td {
+      background-color: #fafcff;
+    }
+
+    .note {
+      color: #5b6b7a;
+      font-size: 13px;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Contract Evaluation Report</h1>
+
+    <div class="meta">
+      <div><strong>Contract:</strong> Contract__13.pdf</div>
+      <div><strong>Contract ID:</strong> Contract__13</div>
+    </div>
+
+    <h2>Overall Summary</h2>
+    <table class="report-table">
+  <thead>
+    <tr>
+      <th>metric</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>total_questions</td>
+      <td>123</td>
+    </tr>
+    <tr>
+      <td>gold_non_blank_count</td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <td>predicted_non_blank_count</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <td>scored_questions</td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <td>perfect_matches</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>overall_judge_score_mean</td>
+      <td>0.6881</td>
+    </tr>
+    <tr>
+      <td>judge_model_deployment</td>
+      <td>gpt-4o</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Categorical Results</h2>
+    <table class="report-table">
+  <thead>
+    <tr>
+      <th>data_type</th>
+      <th>count</th>
+      <th>metric</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>boolean</td>
+      <td>25</td>
+      <td>correct_rate</td>
+      <td>0.4</td>
+    </tr>
+    <tr>
+      <td>boolean</td>
+      <td>25</td>
+      <td>judge_score_mean</td>
+      <td>0.92</td>
+    </tr>
+    <tr>
+      <td>currency</td>
+      <td>1</td>
+      <td>correct_rate</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>currency</td>
+      <td>1</td>
+      <td>judge_score_mean</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>date</td>
+      <td>1</td>
+      <td>correct_rate</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>date</td>
+      <td>1</td>
+      <td>judge_score_mean</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>enum</td>
+      <td>4</td>
+      <td>correct_rate</td>
+      <td>0.25</td>
+    </tr>
+    <tr>
+      <td>enum</td>
+      <td>4</td>
+      <td>judge_score_mean</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>identifier</td>
+      <td>11</td>
+      <td>correct_rate</td>
+      <td>0.0909</td>
+    </tr>
+    <tr>
+      <td>identifier</td>
+      <td>11</td>
+      <td>judge_score_mean</td>
+      <td>0.9091</td>
+    </tr>
+    <tr>
+      <td>number</td>
+      <td>8</td>
+      <td>correct_rate</td>
+      <td>0.125</td>
+    </tr>
+    <tr>
+      <td>number</td>
+      <td>8</td>
+      <td>judge_score_mean</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>percentage</td>
+      <td>8</td>
+      <td>correct_rate</td>
+      <td>0.125</td>
+    </tr>
+    <tr>
+      <td>percentage</td>
+      <td>8</td>
+      <td>judge_score_mean</td>
+      <td>0.875</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Categorical Combined Results</h2>
+    <table class="report-table">
+  <thead>
+    <tr>
+      <th>data_type</th>
+      <th>count</th>
+      <th>metric</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>categorical_combined</td>
+      <td>58</td>
+      <td>correct_rate</td>
+      <td>0.2414</td>
+    </tr>
+    <tr>
+      <td>categorical_combined</td>
+      <td>58</td>
+      <td>judge_score_mean</td>
+      <td>0.931</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Descriptive Results</h2>
+    <table class="report-table">
+  <thead>
+    <tr>
+      <th>data_type</th>
+      <th>count</th>
+      <th>metric</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>list</td>
+      <td>2</td>
+      <td>hybrid_text_score_mean</td>
+      <td>0.45</td>
+    </tr>
+    <tr>
+      <td>list</td>
+      <td>2</td>
+      <td>judge_score_mean</td>
+      <td>0.45</td>
+    </tr>
+    <tr>
+      <td>list</td>
+      <td>2</td>
+      <td>semantic_similarity_mean</td>
+      <td>0.45</td>
+    </tr>
+    <tr>
+      <td>list</td>
+      <td>2</td>
+      <td>token_f1_like_mean</td>
+      <td>0.45</td>
+    </tr>
+    <tr>
+      <td>long_text</td>
+      <td>21</td>
+      <td>hybrid_text_score_mean</td>
+      <td>0.1619</td>
+    </tr>
+    <tr>
+      <td>long_text</td>
+      <td>21</td>
+      <td>judge_score_mean</td>
+      <td>0.1619</td>
+    </tr>
+    <tr>
+      <td>long_text</td>
+      <td>21</td>
+      <td>semantic_similarity_mean</td>
+      <td>0.1571</td>
+    </tr>
+    <tr>
+      <td>long_text</td>
+      <td>21</td>
+      <td>token_f1_like_mean</td>
+      <td>0.1619</td>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td>7</td>
+      <td>hybrid_text_score_mean</td>
+      <td>0.3214</td>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td>7</td>
+      <td>judge_score_mean</td>
+      <td>0.3214</td>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td>7</td>
+      <td>semantic_similarity_mean</td>
+      <td>0.3143</td>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td>7</td>
+      <td>token_f1_like_mean</td>
+      <td>0.3214</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Descriptive Combined Results</h2>
+    <table class="report-table">
+  <thead>
+    <tr>
+      <th>data_type</th>
+      <th>count</th>
+      <th>metric</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>descriptive_combined</td>
+      <td>30</td>
+      <td>hybrid_text_score_mean</td>
+      <td>0.2183</td>
+    </tr>
+    <tr>
+      <td>descriptive_combined</td>
+      <td>30</td>
+      <td>judge_score_mean</td>
+      <td>0.2183</td>
+    </tr>
+    <tr>
+      <td>descriptive_combined</td>
+      <td>30</td>
+      <td>semantic_similarity_mean</td>
+      <td>0.2133</td>
+    </tr>
+    <tr>
+      <td>descriptive_combined</td>
+      <td>30</td>
+      <td>token_f1_like_mean</td>
+      <td>0.2183</td>
+    </tr>
+  </tbody>
+</table>
+
+    <div class="note">
+      Open this file directly in a browser using a file:/// path.
+    </div>
+  </div>
+</body>
+</html>
