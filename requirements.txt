@@ -1,4 +1,5 @@
 pandas
+numpy
 pydantic
 python-dotenv
 tqdm
@@ -6,3 +7,12 @@ pymupdf
 pdfplumber
 python-docx
 openpyxl
+azure-core 
+azure-search-documents 
+openai
+pypdf
+langchain-openai
+shiny
+pandas
+sentence-transformers
+reportlab

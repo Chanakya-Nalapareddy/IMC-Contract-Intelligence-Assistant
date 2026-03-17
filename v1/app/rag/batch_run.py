@@ -9,7 +9,7 @@ from v1.app.rag.answer import answer
 
 # --- Defaults ---
 QUESTIONS_PATH = Path("v1/data/questions.jsonl")
-OUTPUT_PATH = Path("v1/data/results.jsonl")
+PROCESSED_DIR = Path("v1/data/processed")
 TOP_K = 8
 
 SKIP_LINES = {
@@ -51,13 +51,15 @@ def load_questions(path: Path):
                 continue
             try:
                 obj = json.loads(q)
-                questions.append(
-                    {
-                        "question": obj.get("question", "").strip(),
-                        "expected_type": obj.get("expected_type", "text"),
-                    }
-                )
-            except:
+                question = obj.get("question", "").strip()
+                if question:
+                    questions.append(
+                        {
+                            "question": question,
+                            "expected_type": obj.get("expected_type", "text"),
+                        }
+                    )
+            except Exception:
                 questions.append({"question": q, "expected_type": "text"})
     return questions
 
@@ -69,9 +71,12 @@ def main(contract_id: str):
     if not questions:
         raise RuntimeError("No questions found.")
 
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    contract_out = PROCESSED_DIR / contract_id
+    contract_out.mkdir(parents=True, exist_ok=True)
 
-    with OUTPUT_PATH.open("w", encoding="utf-8") as out:
+    output_path = contract_out / "results.jsonl"
+
+    with output_path.open("w", encoding="utf-8") as out:
         for item in tqdm(questions, desc="Abstracting", unit="q"):
             question = item["question"]
             expected_type = item.get("expected_type", "text")
@@ -80,6 +85,7 @@ def main(contract_id: str):
 
             if not excerpts:
                 result = {
+                    "contract_id": contract_id,
                     "question": question,
                     "expected_type": expected_type,
                     "value": None,
@@ -90,6 +96,7 @@ def main(contract_id: str):
             else:
                 resp = answer(question, expected_type, excerpts)
                 result = {
+                    "contract_id": contract_id,
                     "question": question,
                     "expected_type": expected_type,
                     "value": resp.get("value"),
@@ -101,7 +108,8 @@ def main(contract_id: str):
 
             out.write(json.dumps(result, ensure_ascii=False) + "\n")
 
-    print(f"\nDone. Results written to: {OUTPUT_PATH.resolve()}")
+    print(f"\nDone. Results written to: {output_path.resolve()}")
+    return output_path
 
 
 if __name__ == "__main__":

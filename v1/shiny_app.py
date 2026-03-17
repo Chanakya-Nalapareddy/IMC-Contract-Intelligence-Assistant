@@ -25,18 +25,15 @@ DATA_RAW = V1_ROOT / "data" / "raw"
 UPLOADS_DIR = V1_ROOT / "data" / "_uploads"
 QUESTIONS_JSON = V1_ROOT / "data" / "questions.json"
 QUESTIONS_JSONL = V1_ROOT / "data" / "questions.jsonl"
-RESULTS_JSONL = V1_ROOT / "data" / "results.jsonl"
-RESULTS_JSON = V1_ROOT / "data" / "results.json"
+PROCESSED_DIR = V1_ROOT / "data" / "processed"
 
-for p in [DATA_RAW, UPLOADS_DIR]:
+for p in [DATA_RAW, UPLOADS_DIR, PROCESSED_DIR]:
     p.mkdir(parents=True, exist_ok=True)
 
 # ----------------------------
 # Pipeline imports
 # ----------------------------
-from v1.app.ingest import run_ingest as ingest_run
-from v1.app.ingest import embed_upsert as embed_run
-from v1.app.rag import batch_run as rag_batch
+from v1.app.pipeline import e2e_run
 
 # ----------------------------
 # Helpers
@@ -78,22 +75,22 @@ def load_questions() -> list[dict]:
             except Exception:
                 continue
 
-        if text.startswith("{"):
-            try:
-                out = []
-                with path.open("r", encoding="utf-8") as f:
-                    for line in f:
-                        s = line.strip()
-                        if not s:
-                            continue
-                        obj = json.loads(s)
-                        q = (obj.get("question") or "").strip()
-                        if not q:
-                            continue
-                        out.append({"question": q, "expected_type": obj.get("expected_type", "text")})
+        try:
+            out = []
+            with path.open("r", encoding="utf-8") as f:
+                for line in f:
+                    s = line.strip()
+                    if not s:
+                        continue
+                    obj = json.loads(s)
+                    q = (obj.get("question") or "").strip()
+                    if not q:
+                        continue
+                    out.append({"question": q, "expected_type": obj.get("expected_type", "text")})
+            if out:
                 return out
-            except Exception:
-                continue
+        except Exception:
+            continue
 
     return []
 
@@ -104,15 +101,49 @@ def save_uploaded_file(fileinfo: FileInfo, dest_path: Path) -> Path:
     return dest_path
 
 
-def _build_chunk_index_from_processed() -> dict[str, dict]:
-    out: dict[str, dict] = {}
-    processed_root = V1_ROOT / "data" / "processed"
-    if not processed_root.exists():
-        return out
+def get_latest_processed_contract_dir() -> Path | None:
+    if not PROCESSED_DIR.exists():
+        return None
 
-    for sub in processed_root.iterdir():
-        if not sub.is_dir():
-            continue
+    candidates = [p for p in PROCESSED_DIR.iterdir() if p.is_dir()]
+    if not candidates:
+        return None
+
+    candidates.sort(key=lambda p: p.stat().st_mtime, reverse=True)
+    return candidates[0]
+
+
+def get_results_paths_for_contract_dir(contract_dir: Path | None) -> dict[str, Path | None]:
+    if contract_dir is None:
+        return {
+            "results_jsonl": None,
+            "results_json": None,
+            "evaluation_summary": None,
+            "evaluation_markdown": None,
+            "evaluation_html": None,
+            "results_pdf": None,
+        }
+
+    return {
+        "results_jsonl": contract_dir / "results.jsonl",
+        "results_json": contract_dir / "results.json",
+        "evaluation_summary": contract_dir / "evaluation_summary.json",
+        "evaluation_markdown": contract_dir / "evaluation_report.md",
+        "evaluation_html": contract_dir / "evaluation_report.html",
+        "results_pdf": contract_dir / f"{contract_dir.name}.pdf",
+    }
+
+
+def _build_chunk_index_from_processed(contract_dir: Path | None = None) -> dict[str, dict]:
+    out: dict[str, dict] = {}
+
+    dirs: list[Path] = []
+    if contract_dir and contract_dir.exists():
+        dirs = [contract_dir]
+    elif PROCESSED_DIR.exists():
+        dirs = [p for p in PROCESSED_DIR.iterdir() if p.is_dir()]
+
+    for sub in dirs:
         chunks_file = sub / "chunks.jsonl"
         if not chunks_file.exists():
             continue
@@ -137,12 +168,15 @@ def _build_chunk_index_from_processed() -> dict[str, dict]:
     return out
 
 
-def load_results_cache() -> dict[str, dict]:
+def load_results_cache(contract_dir: Path | None = None) -> dict[str, dict]:
     out: dict[str, dict] = {}
-    chunk_index = _build_chunk_index_from_processed()
+    chunk_index = _build_chunk_index_from_processed(contract_dir)
 
-    for path in [RESULTS_JSONL, RESULTS_JSON]:
-        if not path.exists():
+    resolved_dir = contract_dir or get_latest_processed_contract_dir()
+    paths = get_results_paths_for_contract_dir(resolved_dir)
+
+    for path in [paths["results_jsonl"], paths["results_json"]]:
+        if path is None or not path.exists():
             continue
         try:
             txt = path.read_text(encoding="utf-8").strip()
@@ -168,7 +202,11 @@ def load_results_cache() -> dict[str, dict]:
                             cstr = str(cid)
                             resolved = chunk_index.get(cstr)
                             evidence.append(
-                                {"chunk_id": cstr, "page": resolved.get("page") if resolved else None, "content": resolved.get("content") if resolved else ""}
+                                {
+                                    "chunk_id": cstr,
+                                    "page": resolved.get("page") if resolved else None,
+                                    "content": resolved.get("content") if resolved else "",
+                                }
                             )
 
                         out[qn] = {
@@ -206,7 +244,11 @@ def load_results_cache() -> dict[str, dict]:
                         cstr = str(cid)
                         resolved = chunk_index.get(cstr)
                         evidence.append(
-                            {"chunk_id": cstr, "page": resolved.get("page") if resolved else None, "content": resolved.get("content") if resolved else ""}
+                            {
+                                "chunk_id": cstr,
+                                "page": resolved.get("page") if resolved else None,
+                                "content": resolved.get("content") if resolved else "",
+                            }
                         )
 
                     out[qn] = {
@@ -228,7 +270,7 @@ def rag_followup_from_stored_evidence(question: str, chat_history: list[dict], s
     aoai_ep = _env("AZURE_OPENAI_ENDPOINT")
     aoai_key = _env("AZURE_OPENAI_API_KEY")
     aoai_ver = _env("AZURE_OPENAI_API_VERSION", "2024-02-15-preview")
-    aoai_chat_deploy = _env("AZURE_DEPLOYMENT_NAME")
+    aoai_chat_deploy = _env("AZURE_DEPLOYMENT_NAME") or _env("AZURE_OPENAI_CHAT_DEPLOYMENT")
 
     if not (aoai_ep and aoai_key and aoai_chat_deploy):
         if stored_evidence:
@@ -401,7 +443,6 @@ def left_pane_ui():
         ui.tags.div(class_="ci-splitter-y"),
         ui.tags.div(
             ui.tags.div(ui.tags.h4("Chat"), class_="ci-compact"),
-            # ✅ single-column chat area (no empty left grid column)
             ui.tags.div(
                 ui.input_text_area("chat_input", "", rows=2, placeholder="ask a question"),
                 ui.tags.div(
@@ -462,16 +503,28 @@ async def pipeline_task(saved_pdf_path: str) -> dict:
         try:
             print(f"[pipeline_task] started for uploaded file: {saved_pdf_path_inner}")
 
-            contract_id = ingest_run.main()
-            print(f"[pipeline_task] ingest returned contract_id: {contract_id}")
+            e2e_run.main()
+            print("[pipeline_task] full e2e pipeline completed")
 
-            embed_run.main(contract_id)
-            print(f"[pipeline_task] embedding completed for: {contract_id}")
+            raw_files = [f for f in DATA_RAW.iterdir() if f.is_file() and f.suffix.lower() == ".pdf"]
+            if not raw_files:
+                return {"error": True, "message": "No PDF found in raw after pipeline run."}
 
-            rag_batch.main(contract_id)
-            print(f"[pipeline_task] batch abstraction completed for: {contract_id}")
+            raw_files.sort(key=lambda p: p.stat().st_mtime, reverse=True)
+            contract_id = raw_files[0].stem
+            processed_dir = PROCESSED_DIR / contract_id
+            paths = get_results_paths_for_contract_dir(processed_dir)
 
-            return {"results_jsonl": str(RESULTS_JSONL)}
+            return {
+                "contract_id": contract_id,
+                "processed_dir": str(processed_dir),
+                "results_jsonl": str(paths["results_jsonl"]) if paths["results_jsonl"] else None,
+                "results_json": str(paths["results_json"]) if paths["results_json"] else None,
+                "evaluation_summary": str(paths["evaluation_summary"]) if paths["evaluation_summary"] else None,
+                "evaluation_markdown": str(paths["evaluation_markdown"]) if paths["evaluation_markdown"] else None,
+                "evaluation_html": str(paths["evaluation_html"]) if paths["evaluation_html"] else None,
+                "results_pdf": str(paths["results_pdf"]) if paths["results_pdf"] else None,
+            }
         except Exception as e:
             tb = traceback.format_exc()
             print("[pipeline_task] ERROR:", str(e))
@@ -489,34 +542,47 @@ def server(input, output, session):
     started = reactive.Value(False)
 
     results_cache = reactive.Value({})
+    latest_contract_dir = reactive.Value(None)
+    latest_run_info = reactive.Value({})
 
     chat_err = reactive.Value("")
     anchor_q = reactive.Value(None)
-
-    # keep a simple single-thread chat history
     chat_msgs = reactive.Value([])
 
     def set_state(st: str, msg: str = ""):
         state.set(st)
         message.set(msg)
 
-    results_cache.set(load_results_cache())
+    initial_contract_dir = get_latest_processed_contract_dir()
+    latest_contract_dir.set(initial_contract_dir)
+    results_cache.set(load_results_cache(initial_contract_dir))
 
     @reactive.effect
     @reactive.event(input.run)
     def _on_run():
         if state.get() == "running":
             return
+
         pdf_files = input.pdf()
         if not pdf_files:
             started.set(False)
             set_state("error", "Please upload a PDF first.")
             return
+
         pdf_info = pdf_files[0]
+
+        for f in DATA_RAW.glob("*.pdf"):
+            try:
+                f.unlink()
+            except Exception:
+                pass
+
         dest_pdf = DATA_RAW / pdf_info["name"]
         save_uploaded_file(pdf_info, dest_pdf)
+
         started.set(True)
         set_state("running", "")
+        latest_run_info.set({})
         pipeline_task.invoke(str(dest_pdf))
 
     @reactive.effect
@@ -532,8 +598,13 @@ def server(input, output, session):
             if isinstance(res, dict) and res.get("error"):
                 set_state("error", f"Pipeline error: {res.get('message')}")
                 return
+
+            latest_run_info.set(res or {})
+            contract_dir_str = (res or {}).get("processed_dir")
+            contract_dir = Path(contract_dir_str) if contract_dir_str else get_latest_processed_contract_dir()
+            latest_contract_dir.set(contract_dir)
+            results_cache.set(load_results_cache(contract_dir))
             set_state("done", "")
-            results_cache.set(load_results_cache())
             return
 
     @output
@@ -562,12 +633,10 @@ def server(input, output, session):
             )
         if st == "done":
             return ui.div(
-                ui.tags.div("Done", style="margin-top:4px;"),
                 ui.tags.div(ui.tags.div(class_="ci-progress-done"), class_="ci-progress-outer"),
             )
         if st == "error":
             return ui.div(
-                ui.tags.div("Error", style="margin-top:4px;"),
                 ui.tags.div(ui.tags.div(class_="ci-progress-done"), class_="ci-progress-outer"),
             )
         return ui.div()
@@ -575,31 +644,46 @@ def server(input, output, session):
     @output
     @render.text
     def status():
-        return message.get()
+        st = state.get()
+        msg = message.get()
+        if st == "error":
+            return msg
+        return ""
 
     @output
     @render.ui
     def download_block():
-        if state.get() == "done" and (RESULTS_JSONL.exists() or RESULTS_JSON.exists()):
-            return ui.tags.div(
-                ui.tags.h5("Download", style="margin-bottom:6px;"),
-                ui.download_button("download_results", "Download results.jsonl", class_="btn-sm"),
+        contract_dir = latest_contract_dir.get()
+        paths = get_results_paths_for_contract_dir(contract_dir)
+
+        if (
+            state.get() == "done"
+            and paths["results_pdf"]
+            and paths["results_pdf"].exists()
+        ):
+            return ui.download_button(
+                "download_results_pdf",
+                "Download Results PDF",
+                class_="btn-primary btn-sm",
             )
+
         return ui.div()
 
     @output
-    @render.download(filename="results.jsonl")
-    def download_results():
+    @render.download(filename=lambda: f"{latest_contract_dir.get().name}.pdf" if latest_contract_dir.get() else "results.pdf")
+    def download_results_pdf():
         def _iter():
-            if RESULTS_JSONL.exists():
-                yield RESULTS_JSONL.read_text(encoding="utf-8")
-            elif RESULTS_JSON.exists():
-                yield RESULTS_JSON.read_text(encoding="utf-8")
+            contract_dir = latest_contract_dir.get()
+            paths = get_results_paths_for_contract_dir(contract_dir)
+
+            if paths["results_pdf"] and paths["results_pdf"].exists():
+                with open(paths["results_pdf"], "rb") as f:
+                    yield f.read()
             else:
-                yield ""
+                yield b""
+
         return _iter()
 
-    # Questions tab
     @output
     @render.ui
     def questions_summary():
@@ -614,10 +698,9 @@ def server(input, output, session):
         qs = load_questions()
         if not qs:
             return ui.p("No questions loaded.")
-        rows = [
-            ui.tags.li(ui.tags.span(f"{i}. ", style="font-weight:600;"), ui.tags.span(q["question"]))
-            for i, q in enumerate(qs, start=1)
-        ]
+
+        rows = [ui.tags.li(ui.tags.span(q["question"])) for q in qs]
+
         return ui.tags.div(
             ui.tags.ol(*rows),
             style="height: calc(100vh - 260px); overflow-y: auto; border: 1px solid #e5e7eb; padding: 10px; border-radius: 8px;",
@@ -637,7 +720,6 @@ def server(input, output, session):
         cache = results_cache.get()
         key = _normalize_q(q)
 
-        # exact match to precomputed questions
         if key in cache:
             row = cache[key]
             anchor_q.set(row["question"])
@@ -646,7 +728,6 @@ def server(input, output, session):
             ui.update_text_area("chat_input", value="")
             return
 
-        # fuzzy-ish match
         found = None
         for k, v in cache.items():
             if k.startswith(key) or key.startswith(k):
@@ -660,7 +741,6 @@ def server(input, output, session):
             ui.update_text_area("chat_input", value="")
             return
 
-        # follow-up using anchored evidence
         aq = anchor_q.get()
         if aq and _normalize_q(aq) in cache:
             stored_ev = cache[_normalize_q(aq)].get("evidence", [])
