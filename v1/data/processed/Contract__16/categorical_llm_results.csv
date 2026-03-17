@@ -1,0 +1,13 @@
+data_type,count,metric,value
+boolean,25,correct_rate,0.44
+boolean,25,judge_score_mean,0.84
+date,1,correct_rate,0.0
+date,1,judge_score_mean,1.0
+enum,3,correct_rate,0.3333
+enum,3,judge_score_mean,0.6667
+identifier,11,correct_rate,0.3636
+identifier,11,judge_score_mean,0.9091
+number,8,correct_rate,0.375
+number,8,judge_score_mean,0.875
+percentage,5,correct_rate,0.0
+percentage,5,judge_score_mean,1.0

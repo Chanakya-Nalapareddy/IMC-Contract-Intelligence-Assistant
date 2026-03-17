@@ -1,0 +1,694 @@
+
+
+===== PAGE 0 =====
+GMP Task Order 1 of 27Rev. 09-26-2024
+CONSTRUCTION TASK ORDER (GMP)
+This Task Order is made this 7th of January 2025, by and between the OWNER, CHILDREN’S 
+HOSPITAL OF PHILADELPHIA, 3401 Civic Center Boulevard., Philadelphia, PA 19104, and 
+CONTRACTOR, IMC Construction, 3 Great Valley Pkwy #200, Malvern, PA 19355.  
+PROJECT: Drexel Hill Primary Care, 4990 State Road, Drexel Hill, PA 19026.
+ARCHITECT/ENGINEER:  Meyer Architects, INC., 227 East Lancaster Avenue, Ardmore, PA 19026.
+1.THE CONTRACT DOCUMENTS.  The Contract Documents consist of this Task Order, the 
+Master Terms and Conditions of the Contract for Construction dated March 29, 2021, executed by Owner and 
+Contractor (the “Master Terms and Conditions”), and all other documents identified as Contract Documents 
+in this Task Order or in the Master Terms and Conditions.  The Contractor acknowledges that it is bound by 
+the Master Terms and Conditions as if they had been executed on the date hereof and set forth in full herein.  
+All terms not defined in this Task Order shall have the respective meanings given to such terms in the other 
+Contract Documents.  The Contract Documents and this Task Order shall not be binding upon the Owner for 
+a project for which the original Guaranteed Maximum Price (as said term is hereinafter defined) exceeds Five 
+Million Dollars ($5,000,000.00).
+2.THE PROJECT.  The scope of the Project and the Work shall be determined by reference to the 
+Drawings and Specifications as listed on Exhibit A hereto, as the same may be from time to time further 
+developed or modified.  If any final Drawings and Specifications which are completed by Architect after the 
+date designated on Exhibit A expand or contract the scope of the Work beyond that contemplated by or 
+reasonably inferable from the Drawings and Specifications listed on Exhibit A, then either Contractor or 
+Owner, as the case may be, shall be entitled to an appropriate Change Order.  Decisions of the Architect, 
+whenever given, as to the intent of the Work included in the Drawings and Specifications shall be final and 
+binding upon the Owner and Contractor.  
+3. THE WORK.  The Contractor shall fully execute the Work described in the Contract Documents, 
+except to the extent specifically indicated in the Contract Documents to be the responsibility of others, for the 
+construction of the Project.  It is the intent of the parties that the Work to be performed by Contractor shall 
+produce a complete, fully functional Project which Owner may immediately use for its intended purposes, 
+except to the extent specifically indicated otherwise in the Contract Documents.  The Work includes all work 
+reasonably inferable from the Contract Documents as necessary to provide the results indicated thereby.  In 
+the event of a conflict in or ambiguity of the Contract Documents, the more stringent requirement or 
+interpretation shall control.
+4.CONTRACT SUM; GUARANTEED MAXIMUM PRICE.  As full compensation for the proper 
+performance by Contractor of the Work, Owner shall pay Contractor the Contract Sum.  The Contract Sum is 
+the lesser of (i) the Cost of the Work as defined in Exhibit I hereto, plus the Contractor’s Fee (as hereinafter 
+defined); or (ii) the Guaranteed Maximum Price.  The Contractor’s Fee shall be an amount equal to _3_ 
+percent (three_%) of the Cost of the Work, subject to the Guaranteed Maximum Price limitation hereinafter 
+set forth.  Contractor’s Approved Staffing Plan attached as Exhibit J hereto identifies all of Contractor’s 
+salaried and hourly personnel by name and by function, sets forth the hourly rate to be charged for each such 
+individual, and identifies the period during which such individual is expected to perform Work on the Project.  
+Without Owner’s prior written approval, which approval Owner may grant or withhold in its discretion, 
+Contractor may not increase its staffing for the Project beyond that set forth on Exhibit J and the hourly rates 
+to be charged pursuant to Exhibit J hereto shall not exceed the average wage or salary rate paid by Contractor 
+to its employees performing the identified functions (including the costs included in said rates as aforesaid).  
+The “Guaranteed Maximum Price” means the maximum cost to Owner for the Project, including the Cost of 
+the Work and Contractor’s Fee, which Owner and Contractor hereby agree shall be Two Million, Eight 
+Hundred Twenty Two Thousand, Three Hundred Thirty Five_ Dollars ($2,822,335).  In no event shall the 
+1
+
+
+===== PAGE 1 =====
+GMP Task Order 2 of 27-26-2024
+Contract Sum be more than the Guaranteed Maximum Price.  In the event that the Contract Sum is more than 
+the Guaranteed Maximum Price, the amount of the difference shall be paid by Contractor without 
+reimbursement by Owner.  In the event that the Contract Sum is less than the Guaranteed Maximum Price, the 
+entire amount of the difference shall insure to the benefit of Owner.  Adjustments to the Contract Sum on 
+account of changes in the Work shall be determined in accordance with Article 7 of the Master Terms and 
+Conditions.
+5.ALLOWANCES; ALTERNATES.  All allowances included in the Guaranteed Maximum Price are 
+set forth on Exhibit B hereto.  All alternates and the amount for each are also set forth on Exhibit B.  Exhibit 
+B hereto also designates those alternates which have been accepted by Owner (all of which accepted 
+alternates are included in the Guaranteed Maximum Price unless otherwise specified on Exhibit B) and all 
+alternates which Owner may hereafter accept (and the addition or subtraction from the Guaranteed Maximum 
+Price for each of such alternates which Owner hereinafter accepts).
+6.TIME.  The Contractor shall commence the Work in accordance with the Detailed Project Schedule 
+attached as Exhibit C hereto.  The Contractor shall diligently prosecute the Work and achieve all milestones, 
+Substantial Completion of the Project as a whole and Final Completion of the Project as a whole, all by no 
+later than the respective dates for same established by the Detailed Project Schedule, subject to adjustments of 
+such dates as expressly provided in the Contract Documents.  All time limits for the performance of the Work 
+established by the Contract Documents are of the essence.
+7.INSURANCE.  Contractor shall maintain and shall cause all Subcontractors and Sub-subcontractors 
+to maintain, throughout the course of the Project (and thereafter to the extent required by the Contract 
+Documents), insurance satisfying the requirements of Exhibit D attached hereto and the provisions of Article 
+11 of the Master Terms and Conditions.  Attached hereto as Exhibit E is a Schedule of Certain “Indemnitees” 
+for purposes of the Master Terms and Conditions.
+8.SCHEDULE OF VALUES.  Attached hereto as Exhibit F is the Schedule of Values which has been 
+approved by Owner, Architect and Contractor.
+9.COMPENSATION FOR CONSTRUCTION CHANGE DIRECTIVES.   Attached hereto as 
+Exhibit G are provisions establishing the compensation payable to Contractor pursuant to Section 7.3.3.3 of 
+the Master Terms and Conditions for Construction Change Directives.
+10.SUBCONTRACTOR DEFAULT INSURANCE.  [STRIKE THIS SECTION 10 IF 
+SUBCONTRACTOR DEFAULT INSURANCE WILL NOT BE REQUIRED] Contractor shall obtain 
+and comply with all of the requirements relating to a policy of Subcontractor Default Insurance set forth on 
+Exhibit “H” attached hereto.  The charge for all subcontractor default insurance maintained by Contractor 
+pursuant to the Contract Documents shall be One and Two percent (1.2%) of all payments made by 
+Contractor for Costs of the Work to Subcontractors covered by the subcontractor default insurance.
+10.BONDS.  [STRIKE THIS SECTION 10 IF SUBCONTRACTOR DEFAULT INSURANCE 
+WILL BE PROVIDED] If Contractor is not required to maintain Subcontractor Default Insurance, or for any 
+Subcontractor not covered by Contractor’s Subcontractor Default Insurance policy, Contractor shall require 
+that each of its Subcontractors with Subcontracts in excess of $200,000, prior to commencing its respective 
+portion of the Work, obtain a performance bond and a payment bond, in form and substance satisfactory to 
+Owner, in the full amount of the Subcontractor’s contract price, from a surety company authorized to do 
+business in the state in which the Project is located holding a valid certificate of authority issued by the 
+Secretary of the U.S. Treasury as an acceptable surety on federal bonds and which is otherwise satisfactory to 
+Owner.  All performance bonds and payment bonds shall name Contractor as obligee and shall name Owner 
+as additional obligee.  All such payment bonds and performance bonds shall be delivered by Contractor to 
+Owner for Owner’s approval before each Subcontractor commences its respective portion of the Work.  The 
+2
+
+===== PAGE 2 =====
+GMP Task Order 3 of 27-2024
+Cost of the Work shall not include any bonds obtained for Subcontractors covered by Contractor’s 
+Subcontractor Default Insurance policy.  
+11.MECHANICS’ LIENS AND COMPLIANCE WITH THE REQUIREMENTS OF THE 
+PENNSYLVANIA STATE CONSTRUCTION NOTICES DIRECTORY.   See Sections 15.4 and 15.5 of 
+the Master Terms and Conditions of the Contract for Construction. 
+12.BIM REQUIREMENTS.  Contractor shall comply with all of the requirements applicable to 
+Contractor, or assigned to Contractor by Owner, as provided in the Building Information Modeling 
+Requirements (“BIM Requirements”) attached hereto as Exhibit L.  Owner and Contractor acknowledge and 
+agree that neither the Building Information Model nor any Model Element (as said terms are defined in the 
+BIM Requirements) is a Contract Document and does not alter or supersede in any respect the Drawings and 
+Specifications or any other design document prepared by Architect and its consultants.  Without limitation of 
+the foregoing, Contractor shall throughout the performance of the Work maintain accurate and current 
+electronic “as built” records of all material changes in the Work made by Contractor or its Subcontractors in 
+the field from what is shown on the Construction Documents, as the same may be modified during the course 
+of the Work in accordance with the terms of the Contract Documents, and 3D shop drawings, construction 
+coordination models and all other documentation required by Exhibit L hereto so that Architect may employ 
+such records to prepare record drawings in BIM format.  As a condition precedent to Owner’s obligation to 
+make payment with respect to any Application for Payment, Contractor shall demonstrate to Owner and 
+Architect that Contractor’s records as aforesaid are accurate and correct, and upon request from time to time 
+by Owner or Architect, shall deliver to Architect complete copies of such records, active files of which shall 
+be maintained at the Project site.  Nothing contained herein shall authorize any changes in the Work except as 
+authorized by a duly executed Change Order.
+13.KEY PERSONNEL.  Throughout the course of the Project, those employees of Contractor 
+designated on Exhibit K attached hereto (hereinafter the "Key Personnel") shall be assigned to work on the 
+Project in the respective positions noted on Exhibit K.  Said Key Personnel shall at all times devote sufficient 
+time to the Project to fulfill all of their responsibilities in such positions, and if so, designated on Exhibit K, 
+during the Construction Phase of the Project shall spend full-time working on the Project.  Contractor shall 
+not replace any of the Key Personnel without the prior written approval of Owner.  If any of the Key 
+Personnel becomes unavailable due to disability or voluntary termination of employment with Contractor, 
+Contractor shall promptly appoint a replacement satisfactory to Owner.  Upon the request of Owner at any 
+time, Contractor shall remove from the Project any member of Contractor’s staff who, in Owner’s opinion, is 
+incompetent, uncooperative or otherwise objectionable.
+14.OWNER’S PROJECT REPRESENTATIVE.  Richard Toy
+15.CONTRACTOR’S REPRESENTATIVE.  Larry Warner
+16.ARCHITECT’S PROJECT REPRESENTATIVE.  Shannon Remaley
+3
+
+===== PAGE 3 =====
+GMP Task Order 5 of 2726-2024
+Exhibits to Construction Task Order (GMP)
+Exhibit A:  Drawings and Specifications
+Exhibit B:  Allowance and Alternates (Not Applicable)
+Exhibit C:  Detailed Project Schedule
+Exhibit D:  Insurance Provisions
+Exhibit E:  Schedule of Certain Indemnitees
+Exhibit F:  Schedule of Values
+Exhibit G:  Compensation for Construction Change Directives
+Exhibit H:  Subcontractor Default Insurance
+Exhibit I:  Cost of the Work
+Exhibit J:  Contractor’s Approved Staffing Plan
+Exhibit K:  Key Personnel
+Exhibit L:  BIM Requirements  Not Applicable 
+Exhibit M:  Notice/Signed Agreement for Mandatory Compliance with CHOP Safety Requirements 
+& Contractor’s Manual
+LIST OTHER EXHIBITS
+Exhibit W -  Notice of Commencement Not Applicable
+Exhibit X - CHOP Credential Requirements (See Sec. 15.5 of the General Conditions and the 
+Supplemental Conditions).
+5
+
+===== PAGE 4 =====
+GMP Task Order 6 of 27024
+EXHIBIT A
+DRAWINGS AND SPECIFICATIONS
+Identify in detail all Drawings and Specifications. Include the date of the drawings and specs. Delete this 
+statement in the final document. 
+A-1
+
+===== PAGE 5 =====
+CHOP Drexel Hill Primary Care 
+Scope of Work 
+ 
+ 
+IMC Construction® 
+November 21, 2024 
+Scope of Work 
+Division 3 - Concrete 
+Cast-in-place Concrete: Sawcut, trenching and backfill for underground piping and recessed walk 
+off mat are excluded.  
+Division 5 - Metals 
+Misc. Metals: Misc Metal supports for rooftop equipment are excluded. 
+Division 6 – Woods and Plastics 
+Millwork: Furnish and Install Solid Surface countertop and front edge, with PLAM front face and 
+drywall back face at Registration Desk and Clinical Work Desk. Registration desk includes curved 
+edges.  
+Casework: Furnish and install PLAM casework at Clerical Storage, Lactation Rooms, Touchdown 
+workspaces, Assessment Rooms, Exam and Exam Consult Rooms, Clinical Workspace, Med/Lab 
+Room, and Staff Lounge. Includes PLAM base cabinets, PLAM countertops with 4” backsplashes, 
+PLAM upper cabinets, PLAM vertical fascial, and PLAM cabinets with shelving as indicated. 
+Rounded PLAM tables with single leg post at Exam and Exam Consult Rooms are not included. 
+Solid Surface windowsills are included as shown.   
+Division 7 – Thermal and Moisture Protection 
+Roofing: Roof patching for new rooftop Exhaust Fans and RTU is excluded. 
+Division 8 - Openings 
+Doors, Frames, and Hardware: Furnish solid core PLAM doors, HM frames, and hardware per the 
+Door Schedule. Includes furnish only of hardware for (3) doors installed by others within core and 
+shell, including auto-operator at the Main Entrance Door, hardware at the Staff Entry and 
+Waiting Area Door. Includes furnish 2” aluminum frames for interior windows at Manager’s 
+Office.  
+Glazing: Includes furnish of glass lites for five (5) type B doors and four (4) type D doors. Includes 
+two (2) interiors windows at the Manager’s Office 106. Glass included as tempered, clear glass. 
+Includes caulking of both sides of all glass lites. 
+Division 9 - Finishes 
+Metal Stud / Drywall Assemblies: Furnish and install interior metal stud with drywall, including 
+knee walls where indicated. Column wraps at curtain wall are included as designed with beam 
+clips, drywall, and white aluminum on backside. Furnish and installation of Mullion Mate 
+aluminum ‘U’ at GWB connections to window mullions. Includes Drywall ceilings and soffits as 
+indicated. Includes furnish and installation of USG  Mars  ClimaPlus  2x2 tegular ACT Ceilings.  
+Drywall is included as level 5 finish behind Reception Desk, and level 4 finish at all other newly 
+installed areas.  Furnish and install of wall protection including InPro rub rail, rigid vinyl sheet, 
+A-16
+
+===== PAGE 6 =====
+CHOP Drexel Hill Primary Care 
+Scope of Work 
+ 
+ 
+IMC Construction® 
+November 21, 2024 
+and corner guards. Includes receiving and installing doors, frames, hardware, fire extinguishers, 
+and OFCI items indicated on Equipment Schedule. Includes fire treated lumber at HM Frames. 
+Flooring: Furnish and install Carpet Tile by Interface or similar. Furnish and install Luxury Vinyl 
+Tile in different colors/styles by Interface in accordance with the Finish Schedule. Furnish and 
+install Resilient Flooring by Patcraft at the Toilet Rooms. Furnish and install VCT-1 by Armstrong 
+at Back of House areas as indicated. Furnish and install VCT-2 Static Dissipative flooring by 
+Armstrong at Electric and IT rooms. Includes B-1 4”H Roppe Vinyl Wall Base throughout entire 
+project. Furnish and install transition strips where flooring types change. Includes minor floor 
+prep. 
+Painting and Coatings: Scope includes painting of exposed new drywall partitions, ceilings, and 
+soffits. Accent paint on indicated walls is included. Painting of the hollow metal doors frames is 
+included; painting of the solid core wood doors is excluded as these are prefinished. Includes 
+caulking of the door frames.  
+Division 10 – Specialties  
+Fire Extinguishers: Furnish six (6) fire extinguishers and cabinets as indicated. Installation is 
+included with Drywall. 
+Toilet Accessories: Furnish and install of Toilet Paper Holders, Grab Bars, Robe Hooks, Mirrors 
+and Pass-Through Windows as indicated, accessories are included as Bobrick or similar. Toilet 
+Paper Holder is included as Scott or similar. Grab Bars are included as Lavex or similar.  
+Lockers: Furnish and install nine (9) six tier staff lockers by Ideal Lockers or similar as specified. 
+Lockers to be prepped to receive Keyless 360 supplied by Owner. Keyless 360 Pushbutton 
+Combination Locks were excluded by proprietary vendor and are therefore excluded from our 
+pricing.  
+Signage: Furnish and install of interior signage in accordance with Signage drawings and 
+specifications set. Includes one (1) vinyl sign for vestibule/waiting room glass entrance, one (1) 
+vinyl graphic for Conference room #102 and two (2) vinyl graphics for waiting room door 
+windows. Furnish and install three (3) 8’-1”w x 1’-5”h exterior Pylon signs onto Pylon structure by 
+Owner. Includes one (1) exterior building mounted, internally illuminated sign onto substructure 
+by Owner.  
+Division 12 – Furnishings 
+Window Treatments: Furnish and install WT-1 Blackout Manual Roller Shade by Mecho Shade or 
+similar at Exam Rooms, Conference Rooms, and Manager Office windows. Furnish and install WT-
+2 Manual Roller Shades by Mecho Shade or similar with 1% openness at all other windows. 
+Includes side channels at blackout shades only. 
+Division 21 - Fire Protection 
+Fire Protection Systems: Work in accordance with NFPA 13 to accommodate light hazard 
+occupancy. Includes modifications to existing turned up sprinkler heads to accommodate new 
+A-17
+
+===== PAGE 7 =====
+CHOP Drexel Hill Primary Care 
+Scope of Work 
+ 
+ 
+IMC Construction® 
+November 21, 2024 
+ceiling. Sprinkler piping is carbon steel ERW (sch. 10) piping with Victaulic valves/fittings (where 
+applicable).  
+Miscellaneous: Includes hydraulic calculations and signed and sealed sprinkler shop drawings for 
+submission to local AHJ for permits. Testing and inspections are included. (1) year warranty is 
+included as are O&M Manuals, as-built documents, certifications, and other close-out materials. 
+Seismic bracing and/or restraints are excluded. 
+Division 22 - Plumbing 
+Plumbing Equipment / Fixtures: Furnish and install the following plumbing equipment/fixtures:  
+Electric Water Heater 
+Water Closets – Kohler or similar (water closets are tank type and cannot accept 
+flushometer as specified) 
+Lavatories at Toilet Rooms – Kohler or similar 
+Exam Room Sinks – Elkay or similar 
+Mop Sink – Fiat or similar 
+Break Room/Staff Lounge Sinks – Elkay or similar 
+Bottle Filler – Elkay or similar 
+Eyewash – Guardian or similar 
+Floor Drain – JR Smith or similar 
+Domestic Water: Includes domestic hot and cold-water piping to service CHOP fitout plumbing 
+fixtures. Domestic hot water to be generated via electric water heaters. Domestic water piping is 
+L-copper with ProPress valves/fittings. Includes fiberglass insulation (factory applied jacketing); 
+no secondary insulation jacketing is included. 
+Natural Gas: Includes natural gas piping for the emergency generator from a future valve in the 
+core and shell project. Natural gas piping to be carbon steel with threaded valves/fittings.  
+Sanitary Waste and Vent: Includes sanitary waste and vent to service CHOP fitout plumbing 
+fixtures/drains; below grade sanitary waste is excluded. Sanitary waste and vent piping is to be 
+epoxy coated cast iron (New Age or equal).  
+Miscellaneous: Includes fire stopping (STI) for own work, testing and inspections. One (1)-year 
+parts warranty is included as are O&M Manuals, as-built documents, certifications, and other 
+close-out materials. Seismic bracing and/or restraints are excluded. 
+Division 23 - HVAC 
+Mechanical / HVAC Equipment: Furnish and install mechanical/HVAC equipment per the 
+equipment schedules including Fan Powered Boxes (with electric heat), Terminal Supply/Return 
+Air Boxes (with electric heat), DX Split System, Exhaust Fans, Heated Air Curtain (with electric 
+heat), Unit Heater (with electric heat), and Grilles, registers and diffusers. 
+ 
+A-18
+
+===== PAGE 8 =====
+CHOP Drexel Hill Primary Care 
+Scope of Work 
+ 
+ 
+IMC Construction® 
+November 21, 2024 
+Airside / Ductwork Systems: Includes airside/ductwork systems include horizontal distribution 
+for supply, return and exhaust air for CHOP fitout. Ductwork is to be single-wall galvanized metal 
+with fiberglass ductwrap for interior work.  
+Refrigeration: Includes refrigeration piping for A/C split systems. Refrigeration piping to be ACR-
+copper with brazed or soldered valves/fittings. Insulation is to be Armaflex. 
+Condensate Drain: Includes condensate drain piping from A/C split system equipment. 
+Condensate drain piping is L-copper with ProPress valves/fittings. Insulation is to be fiberglass 
+(factory applied jacketing).  
+Automated Temperature Controls / BAS: Includes extension of existing CHOP DDC Controls by 
+Johnson Controls (corporate office) for ATC/BAS work. Provide monitoring of water heater leak 
+detection. Contractor to utilize plenum rated cable for all wiring.  
+Miscellaneous: Includes fire stopping (STI) for own work, pipe and ductwork insulation, air 
+balancing of new work, commissioning assistance, equipment start-up and Owner training, 
+ductwork leak testing (per SMACNA). One (1)-year parts warranty is included as are O&M 
+Manuals, as-built documents, certifications, and other close-out materials. Ductwork cleaning is 
+excluded. Seismic bracing and/or restraints are excluded. 
+Division 26 - Electric 
+Electrical Equipment: Furnish and install the following electrical equipment: Emergency gas 
+generator-22kW/27kVA (Kohler, CAT, Cummins or equal), ATS-100A, T-C1LA-45kVA, C1LA-150A, 
+C1LB-150A, C1HA-175A, EC1L-100A, disconnects, outlets and receptacles, fire alarm system, 
+lighting and lighting controls system, security devices, cameras, and panels. 
+Temporary Power/Lighting: Includes new temporary receptacles (120v-GFI) throughout the 
+project areas. Includes new temporary interior lighting to meet minimum OSHA requirements for 
+the project areas.  
+Miscellaneous: Includes fire stopping (STI) for own work, testing and inspections, equipment 
+start-up, and Owner training. One (1)-year parts warranty is included as are O&M Manuals, as-
+built documents, certifications, and other close-out materials. Updated coordination study 
+and/or ARC flash studies is included for new equipment only. Seismic bracing and/or restraints 
+are excluded. 
+ 
+A-19
+
+===== PAGE 9 =====
+GMP Task Order 11 of 27 09-26-2024
+EXHIBIT E
+SCHEDULE OF CERTAIN INDEMNITEES
+Children’s Hospital of Philadelphia and its affiliates
+Meyer Architects, Inc.
+227 East Lancaster Ave,
+Ardmore, PA 19003
+Precis
+930 Harvest Drive, Suite 470
+Blue Bell, PA 19422
+
+===== PAGE 10 =====
+GMP Task Order 13 of 27-2024
+EXHIBIT G
+COMPENSATION FOR CONSTRUCTION CHANGE DIRECTIVES
+For extra work performed by the Contractor, the charges to the Owner shall be the Contractor’s cost, plus a 
+fee (payable to the Contractor) in an amount equal to 10% of such cost.  
+For extra work performed by a Subcontractor, the charges to Owner shall be the Subcontractor’s cost, plus a 
+fee (payable to the Subcontractor) in an amount equal to _10_% of such cost, plus a fee (payable to the 
+Contractor) in an amount equal to 10_% of the sum of the Subcontractor’s cost and the Subcontractor’s fee, 
+unless the change is essentially administrative or if insubstantial Work by Contractor’s personnel is involved, 
+in which event there shall be no fee payable to Contractor.  
+For extra work performed by a Sub-subcontractor, the charges to Owner shall be the Sub-subcontractor’s cost, 
+plus a fee (payable to the Sub-subcontractor) in an amount equal to 10% of such cost, plus a fee (payable to 
+the Subcontractor) in an amount equal to 5_% of the sum of the Sub-subcontractor’s cost and the Sub-
+subcontractor’s fee, plus a fee (payable to the Contractor) in an amount equal to 10_% of the sum of the Sub-
+subcontractor’s cost and the Sub-subcontractor’s fee, unless the change is essentially administrative or if 
+insubstantial work by Contractor’s personnel is involved, in which event there shall be no fee to Contractor.  
+As used in this Exhibit, the term “cost” shall mean those incremental costs and expenses which are 
+specifically and exclusively attributable to the extra work and which are expressly included in the “Cost of the 
+Work,” as such term is defined in the Task Order.  Without limitation of the foregoing, as used in this Exhibit, 
+the term “cost” shall not include any costs or expenses attributable to or otherwise relating to supervision, 
+overhead or profit (except to the extent that supervision is required in connection with such extra work and is 
+actually performed); and the Owner and Contractor (for itself and all Subcontractors and Sub-subcontractors) 
+agree that all such costs and expenses are included in full in the fixed-percentage fees set forth above in this 
+Exhibit.
+
+===== PAGE 11 =====
+GMP Task Order 14 of 272024
+EXHIBIT H
+SUBCONTRACTOR DEFAULT INSURANCE
+       
+       
+1. Contractor represents that it shall continuously maintain until final acceptance of the entire Project by Owner a 
+policy of Subcontractor Default Insurance with an insurance company approved by Owner, which policy shall 
+be in form and substance satisfactory to Owner and shall satisfy all of the other requirement set forth in this 
+Exhibit.
+2. Said policy of Subcontractor Default Insurance shall satisfy the following requirements:
+a. the policy shall provide for a single loss limit of at least $15,000,000;
+b. the policy shall provide aggregate limits for any one occurrence of at least $30,000,000; 
+c. the policy shall not provide for any deductible, self-insurance, co-pay or retention. 
+d. the policy shall provide full coverage to all Subcontractors (including suppliers) with direct contracts 
+with Contractor (“Primary Subcontractors”) engaged at any time in the Work, except for Primary 
+Subcontractors with subcontracts for less than $__________ of work, and other Primary 
+Subcontractors approved in writing by Owner in Owner’s sole discretion;
+e. the policy shall include a Financial Interest Endorsement for the benefit of Owner in form and 
+substance satisfactory to Owner.
+3. Contractor hereby agrees that it shall:
+a. take all steps necessary to assure that all Subcontractors (including suppliers) are fully covered by the 
+policy of Subcontractor Default Insurance prior to their commencement of work on the Project, and not 
+permit any such Subcontractor to commence work on the Project until it is so covered;
+b. timely give all notices and provide all information which is required under the policy of Subcontractor 
+Default Insurance with respect to claims or otherwise, and fully comply with all of the terms and 
+conditions of the policy of Subcontractor Default Insurance;
+c. promptly pay when due all premiums and other charges required to be paid pursuant to the policy of 
+Subcontractor Default Insurance;
+d. indemnify, save harmless and defend Owner from and against all claims, suits, liability, costs and 
+expenses, including attorneys’ fees, arising out of or in connection with any breach by Contractor of 
+any of its obligations under this Exhibit K; 
+e. without limitation of any of Owner’s remedies or Contractor’s obligations under this Exhibit or any 
+other provisions of the Contract Documents, in the event that the policy of Subcontractor Default 
+Insurance is canceled or terminated prior to Final Completion of the Work, or if, based upon claims 
+made or likely to be made by Contractor under the policy of Subcontractor Default Insurance 
+maintained by Contractor with respect to the Project, whether said claims arise from the Project or 
+other projects, it appears that the aggregate amount of coverage under the policy of Subcontractor 
+Default Insurance available for the Project has been or will likely be reduced below $30,000,000 in the 
+aggregate, then, at Owner’s option, Contractor shall immediately obtain at Contractor’s sole and 
+expense, and not as a part of the Cost of the Work, completion bonds and labor and material payment 
+bonds for all Subcontractors whose work has not then been fully completed as of the date of such 
+cancellation,  termination or reduction in coverage.
+f. upon the request by Owner from time to time, furnish to Owner such information as Owner shall 
+reasonably request to establish that the aggregate amount of coverage under the policy of 
+Subcontractor Default Insurance available for the Project has not been and will not likely be reduced 
+below $30,000,000 in the aggregate.
+4. Contractor has included the full cost of the policy of Subcontractor Default Insurance in the Contract Sum.
+0.00
+
+===== PAGE 12 =====
+GMP Task Order 15 of 27024
+EXHIBIT I
+COST OF THE WORK
+1. The term “Cost of the Work” shall mean costs necessarily incurred by the Contractor, directly or in 
+connection with Subcontracts, in good faith and in the proper performance of the Work. Such costs shall be at 
+rates not higher than the standard paid at the location of the Project except with prior consent of the Owner.   
+All costs in the costs of the Work shall be reasonable and customary.  The Cost of the Work shall include only 
+the following items: 
+(a) Wages of construction workers directly employed by the Contractor to perform the construction of 
+the Work and clean-up at the Project site or, with the Owner's approval, at off-site workshops.
+(b) Wages or salaries of the Contractor's supervisory and administrative personnel performing the 
+functions identified on Exhibit J to the Task Order at the rates specified on Exhibit J to the Task Order 
+when performing Work on the Project (excluding vacations and paid time off). 
+(c) Costs paid or incurred by the Contractor for taxes, insurance, contributions, assessments and benefits 
+required by law or collective bargaining agreements and, for personnel not covered by such agreements, 
+customary benefits such as sick leave, medical and health benefits, parking and local travel allowances, 
+holidays, vacations and pensions, provided such costs are based on wages and salaries included in the 
+Cost of the Work under Sections 1(a) or 1(b) hereof.  Contractor shall not be entitled to include as a cost 
+of the Work any cost which is included in the hourly rates for Contractor’s personnel specified on Exhibit 
+J to the Task Order.
+(d) Payments made or owed by the Contractor to Subcontractors in accordance with the requirements of 
+the subcontracts properly entered into in accordance with the terms of the Contract Documents.
+(e) Costs, including transportation and storage (if approved by the Owner pursuant to the Contract 
+Documents) of materials and equipment incorporated or delivered and properly stored on-site to be 
+incorporated in the completed construction.
+(f) Costs of materials described in the preceding Section 1(e) in excess of those actually installed but 
+required to provide reasonable allowance for waste and spoilage. Unused excess materials, if any, shall be 
+properly stored during the performance of the Work and shall be delivered to the Owner and shall become 
+the Owner's property at the completion of the Work or, at the Owner's option, shall be sold by the 
+Contractor in a commercially reasonable manner.  Any amounts realized from such sales shall be credited 
+to the Owner as a deduction from the Cost of the Work.
+(g) Costs, including transportation and storage (if approved by the Owner pursuant to the Contract 
+Documents), installation, maintenance, dismantling and removal of materials, supplies, temporary 
+facilities, machinery, equipment, and hand tools not customarily owned by construction workers, that are 
+provided by the Contractor at the Project site and fully consumed in the performance of the Work; and 
+cost (less salvage value) of such items if not fully consumed, whether sold to others or retained by the 
+Contractor. Cost for items previously used by the Contractor shall mean fair market value.
+(h) Rental charges for temporary facilities, machinery, equipment, and hand tools not customarily owned 
+by construction workers that are provided by the Contractor at the Project site, whether rented from the 
+Contractor or others, and costs of transportation, installation, minor repairs and replacements, dismantling 
+and removal thereof. Rates and quantities of equipment rented shall be subject to the Owner's prior 
+written approval.  Rental charges for machinery and equipment furnished by Contractor from its own 
+stock shall not exceed the fair rental value for same in the region where the Project is located, and in no 
+event shall the total rental of any piece of such machinery or equipment exceed its fair market value at the 
+I-1
+
+===== PAGE 13 =====
+GMP Task Order 16 of 2709-26-2024
+time it is first utilized on the Project.  After the Contractor has received through such rental charges an 
+amount equal to the fair market value as aforesaid of any specific item of machinery or equipment, the 
+Contractor shall not thereafter remove such machinery or equipment from the Project site without the 
+Owner’s prior written approval.
+(i) Costs of removal of debris from the site.
+(j) Costs in connection with the performance of the Work of document reproductions and postage and 
+parcel delivery charges.  
+(k) That portion of the reasonable expenses of the Contractor's personnel incurred while traveling in 
+discharge of duties connected with the Work (but not commuting to and from the Project), provided that 
+such expenses are consistent with Owner’s travel policy, a copy of which is attached as Schedule 1 
+hereto, and further provided that the Owner gives prior approval.  
+(l) That portion of insurance (including subcontractor default insurance) and bond premiums for 
+insurance and bonds specifically required by the Contract Documents.  
+(m) Subject to the provisions of Section 3.6 of the Master Terms and Conditions, sales and use taxes 
+imposed by a governmental authority that are related to the Work and for which the Contractor is liable in 
+accordance with applicable law in effect during this Agreement.
+(n) If the Project is located in Philadelphia, the gross receipts portion (but not any net income portion) of 
+any Philadelphia Business Income and Receipts Taxes payable by Contractor with respect to its receipts 
+pursuant to the Contract Documents.  
+(o) Fees and assessments for the   permits, licenses and inspections for which the Contractor is required 
+by the Contract Documents to pay.
+(p) Fees of testing laboratories for tests required by the Contract Documents, except those related to 
+defective or nonconforming Work for which reimbursement is excluded by provisions of the Contract 
+Documents.
+(q) Deposits lost for causes other than the Contractor's negligence or failure of the Contractor (or others 
+working on the Contractor’s behalf) to fulfill a specific responsibility to the Owner as set forth in the 
+Contract Documents.
+(r) Other costs incurred in the performance of the Work if and to the extent approved in advance in 
+writing by the Owner.
+(s) Costs due to emergencies incurred in taking action to prevent threatened damage, injury or loss in 
+case of an emergency affecting the safety of persons and property, as provided in Paragraph 10.5 of the 
+Master Terms and Conditions to the extent not caused, or capable of prevention through the proper 
+performance of the Work, by the Contractor, a Subcontractor or anyone for whom either is responsible.
+(t)Costs of complying with the BIM Requirements.
+2. (a)       Costs as defined herein shall not exceed the actual costs paid (or with respect to Subcontractors, 
+incurred) by the Contractor or Owner, less all insurance proceeds received by the Contractor and, further, 
+less all discounts, rebates and salvages which shall be taken by the Contractor subject to Section 5 hereof.  
+All payments made by the Owner pursuant to the Task Order, whether those payments are actually made 
+before or after the effective date of the Task Order, shall be credited against the Guaranteed Maximum 
+Price; provided, however, that in no event shall the Owner be required to reimburse the Contractor for any 
+I-2
+
+===== PAGE 14 =====
+GMP Task Order 17 of 27v. 09-26-2024
+portion of the Cost of the Work (whether incurred prior to, on or after the date of commencement) unless 
+Contractor has received the Owner’s specific written consent prior to incurring such costs, either by virtue 
+of Owner’s signature on any Contract Document or, in the case of any item not included in any Contract 
+Document, by virtue of Owner’s separate prior written approval.
+(b) Contractor hereby agrees and acknowledges that there shall be no duplication of payments for any of 
+the items comprising the Cost of the Work, notwithstanding any itemization or provision contained in the 
+Contract Documents to the contrary including, without limitation, this Exhibit I.
+3. Notwithstanding the provisions of Sections 1 and 2 hereof, Contractor shall immediately submit to Owner 
+a detailed breakdown of all Costs of the Work that are covered under the General Conditions category of the 
+Guaranteed Maximum Price, and Owner shall have the right to approve such detailed breakdown as well as 
+the right to approve in advance any expenditure in excess of $5,000 to be charged to General Conditions 
+(other than expenditures for items specifically identified in the detailed breakdown approved by Owner).  
+Without Owner’s prior written approval, which approval Owner may grant or withhold in its sole and 
+absolute discretion, Contractor may not increase its staffing for the Project beyond that set forth on Exhibit J 
+to the Task Order.
+4. Notwithstanding anything hereinabove to the contrary, the Cost of the Work shall not include:
+(a) Salaries and other compensation of the Contractor's personnel, except as expressly provided in this 
+Exhibit I. 
+(b) Expenses of the Contractor's principal office and offices other than the Project site office. 
+(c) Overhead and general expenses, except as may be expressly provided in this Exhibit I.
+(d) The Contractor's capital expenses, including interest on the Contractor's capital employed for the Work.
+(e) Rental costs of machinery and equipment, except as specifically provided in Section 1(h) hereof.
+(f) Costs due to the fault or negligence or failure to comply with the requirements of the Contract 
+Documents by the Contractor, Subcontractors, Sub-subcontractors  or anyone directly or indirectly 
+employed by any of them or for whose acts any of them may be liable, including, but not limited to, costs 
+for the correction of damaged, defective or nonconforming Work, disposal and replacement of materials 
+and equipment incorrectly ordered or supplied, and making good damage to property not forming part of 
+the Work.
+(g) Any cost not specifically and expressly described in this Exhibit I.
+(h) Costs, other than costs included in Change Orders approved by the Owner, that would cause the 
+Guaranteed Maximum Price to be exceeded.
+(i) Federal, state or local income or capital stock tax.
+(j) Legal, mediation and arbitration costs, including attorneys’ fees. 
+(k) Any amount to any entity affiliated with Contractor, unless: (i) any proposed  payment is specifically 
+disclosed in writing by Contractor to Owner prior to Contractor’s incurring the obligation to make such 
+payment; and (ii) Owner determines that it is in Owner’s best interest for materials or services to be 
+provided by such entity affiliated with Contractor.
+I-3
+
+===== PAGE 15 =====
+GMP Task Order 18 of 27-26-2024
+5. Cash discounts obtained on payments made by the Contractor shall accrue to the Owner, trade discounts, 
+rebates, refunds and amounts received from sales of surplus materials and equipment shall accrue to the 
+Owner, and the Contractor shall make provisions so that they can be secured.  Insurance proceeds received by 
+the Contractor also shall accrue to the Owner.  Amounts that accrue to the Owner in accordance with the 
+provisions of Section 5 shall be credited to the Owner as a deduction from the Cost of the Work.
+I-4
+
+===== PAGE 16 =====
+GMP Task Order 19 of 27v. 09-26-2024
+EXHIBIT I
+COST OF THE WORK
+Schedule 1
+Consultant and Contractor Travel Reimbursement
+POLICY 
+It is the policy of Children’s Hospital of Philadelphia together with its affiliates (the “Hospital”) to pay for 
+reasonable business expenses associated with approved travel by consultants and contractors on business for 
+the Hospital. 
+PURPOSE 
+To identify guidelines for Hospital payment of reasonable travel expenses for business purposes. 
+SCOPE 
+This policy applies to all Hospital consultants and contractors. 
+A. Frequent Flyer Memberships 
+1. Travelers are permitted to join frequent flyer programs, and the benefits earned may be used by 
+the traveler for personal travel. 
+2. Selection of an air carrier and/or flight times should never be decided based on frequent flyer 
+mileage or other travel awards unless the rate is consistent with the lowest fare. 
+3. Under no circumstances may the frequent flyer carrier be reserved when a less expensive and 
+equally practical alternative is available. 
+B. Transportation 
+1. First class or business class plane or train accommodations are not reimbursable. Whenever 
+possible, tickets shall be purchased 21 calendar days or more in advance to secure the lowest fare. 
+2. The most economical reasonable method of transportation shall be used. Public transportation or 
+airport transportation must be used when reasonable, available and more economical rather than 
+cabs. Cabs shall be used when more economical than when rental car charges and parking fees 
+are considered. 
+3. Personal auto may be used if less costly than the airport limousine or public transportation 
+charges. Personal auto expenses are reimbursed at the current published IRS rate. 
+4. If the individual must park his or her car at the airport before travel, the least expensive long-term 
+parking at the airport must be used if the trip extends over 24 hours. 
+5. Tolls and parking fees are reimbursable. Parking fines will not be reimbursed. 
+C. Lodging 
+1. Lodging expenses must be reasonable. The published GSA lodging rate for the travel location 
+shall be used as a guide for reasonableness of the cost. Suites and other luxury accommodations 
+are not reimbursable. 
+2. Hotel incidental expenses, such as room amenities (movies, beverages, etc.) are the responsibility 
+of the traveler and are not reimbursable. 
+3. A stay for extra days for personal reasons is not reimbursable. If, however, the costs of the 
+additional stay more than offsets the transportation costs and is fully documented, it may be 
+permitted if approved in advance. 
+D. Meals, Incidentals and Other Reimbursed Expenses 
+1. The meals and incidental rate are based upon the United States General Services Administration 
+Policy for travel management under per diem by location. Per diem rates are listed on the internet, 
+at www.gsa.gov. 
+I-5
+
+===== PAGE 17 =====
+GMP Task Order 20 of 27. 09-26-2024
+2. The food per diem only applies to overnight trips. Food per diem on first and last day of trip is 
+75% of meal total (also listed at www.gsa.gov) 
+3. Meal reimbursement day trips will apply based on departure and return times. When the departure 
+time is earlier than 7:00 AM the GSA rate breakfast allowance will apply. When the traveler 
+return time is after 7:00 PM the GSA rate dinner allowance will apply. Breakdown of meal 
+allowance is listed on per diem rates on the internet, at www.gsa.gov. 
+4. Incidentals are defined as fees and tips given to porters, baggage carriers, bellhops, hotel maids, 
+stewards or stewardesses. It also includes transportation between places of lodging or business 
+places where meals are taken, if suitable meals cannot be obtained at the travel site. 
+5. If breakfast, lunch, or dinner is provided at no cost to the traveler at the location of travel, an 
+appropriate reduction shall be made to the food allowance for that day. 
+E. Miscellaneous 
+1. Travel expenses for family members are not reimbursable. 
+2. Travel agency fees are not reimbursable. 
+F. Travel Expense Reimbursement 
+1. Upon return from business travel, the consultant/contractor must include in his/her billing a 
+Travel Expense Reimbursement form conforming to CHOP guidelines. 
+2. The consultant/contractor must attach receipts to the billing supporting all travel expenses 
+including without limitation itemized hotel bill(s), airline ticket(s) and air/ground travel itinerary. 
+The contractor need not submit receipts for meals and incidentals that are included in the per 
+diem allowances. 
+I-6
+
+===== PAGE 18 =====
+GMP Task Order 23 of 279-26-2024
+EXHIBIT L
+BUILDING INFORMATION MODELING (“BIM”) REQUIREMENTS
+If BIM Requirements are “Not Applicable,” please leave the notation below this line and strike out the remainder of 
+Exhibit L.
+BIM Requirements Not Applicable
+The information herein applies to Children’s Hospital of Philadelphia (CHOP) for the following projects:
+•Required for any project that has a BIM requirement in the A/E RFP
+•Required for any project that has a BIM requirement in the Construction RFP
+Note:  The information herein will require adjustments if the project is structured under “Design-Build” Contract terms.
+Note to PM: Print out and attach the most current version of the BIM Exhibit located here:
+https://app.e-builder.net/da2/daLanding.aspx?QS=7fac9a6000df44fa989d5219e94112b4
+
+
+===== PAGE 19 =====
+GMP Task Order 24 of 276-2024
+EXHIBIT M
+NOTICE/SIGNED AGREEMENT FOR MANDATORY COMPLIANCE WITH CHOP SAFETY 
+REQUIREMENTS & CONTRACTOR’S MANUAL
+The Construction Manager/Contractor (“Contractor”) hereby acknowledges that it is has received, or been 
+granted access to, and has reviewed Children's Hospital of Philadelphia (“CHOP”) policies for contractors set 
+forth in the CHOP Contractor’s Manual, and that Contractor shall, and shall ensure that its employees, 
+representatives, agents and subcontractors (“Contractor Representatives”), comply with these policies, and 
+also with any other safety instructions or guidelines provided by CHOP. These policies include, but are not 
+limited to, Hot Work Permit Procedure, Utility Outage Notification Request, Infection Control Risk 
+Assessment (ICRA), and the Contractor Safety Guidelines.  
+The Contractor Manual referenced above can be found on eBuilder at:   CHOP Contractor Manual
+In addition to the policies referenced above, Contractor agrees that it will establish and maintain an on-site 
+safety team throughout the duration of construction. The safety team shall be established prior to the 
+commencement of work under the Agreement. Contractor will also, prior to commencement of work under 
+the Agreement, identify in writing to CHOP one of Contractor’s employees to serve as
+an on-site safety officer. The onsite safety officer will lead the Contractor’s safety team, is responsible for 
+the overall safety of the site, and is a single point of contact for CHOP concerning project safety. The safety 
+officer must walk the project site every day.
+NOTE - These forms and policies are updated on a regular basis and thus are subject to change. It shall be 
+the responsibility of Contractor and Contractor Representatives to review the CHOP Contractor Manual 
+regularly to ascertain any policy changes, and to implement compliance with those changes. A construction 
+manager/contractor is required to attend the Interim Life Safety Meetings in order to stay abreast of safety 
+issues and news updates related to work at CHOP. The CHOP Contractor Manual and our Standards are 
+extremely demanding and will require your attention to detail. 
+By signing below, a company officer, project superintendent, and project safety officer of <Insert CM name> 
+acknowledge and agree that they have read and understand this Exhibit M and all policies and procedures 
+outlined in the CHOP Contractor Manual, and that compliance with these CHOP policies is mandatory and 
+will not be grounds for claims for extra work, including but not limited to, change orders or time extensions.  
+M-1

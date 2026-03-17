@@ -1,0 +1,3 @@
+data_type,count,metric,value
+categorical_combined,77,correct_rate,0.4805
+categorical_combined,77,judge_score_mean,0.948

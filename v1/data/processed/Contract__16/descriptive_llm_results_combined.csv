@@ -1,0 +1,5 @@
+data_type,count,metric,value
+descriptive_combined,24,hybrid_text_score_mean,0.4917
+descriptive_combined,24,judge_score_mean,0.4917
+descriptive_combined,24,semantic_similarity_mean,0.4833
+descriptive_combined,24,token_f1_like_mean,0.4917

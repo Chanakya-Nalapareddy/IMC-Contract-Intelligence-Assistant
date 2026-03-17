@@ -1,0 +1,204 @@
+{
+  "contract_file_name": "Contract__12.pdf",
+  "contract_id": "Contract__12",
+  "results_path": "C:\\Users\\c250479\\OneDrive - Incyte Corporation\\Documents\\Projects\\IMC-Contract-Intelligence-Assistant\\v1\\data\\processed\\Contract__12\\results.jsonl",
+  "gold_answers_path": "C:\\Users\\c250479\\OneDrive - Incyte Corporation\\Documents\\Projects\\IMC-Contract-Intelligence-Assistant\\v1\\data\\processed\\Contract__12\\gold_answers.json",
+  "gold_answers_jsonl_path": "C:\\Users\\c250479\\OneDrive - Incyte Corporation\\Documents\\Projects\\IMC-Contract-Intelligence-Assistant\\v1\\data\\processed\\Contract__12\\gold_answers.jsonl",
+  "excel_path": "C:\\Users\\c250479\\OneDrive - Incyte Corporation\\Documents\\Projects\\IMC-Contract-Intelligence-Assistant\\v1\\data\\Filled Abstract Forms.xlsx",
+  "questions_path": "C:\\Users\\c250479\\OneDrive - Incyte Corporation\\Documents\\Projects\\IMC-Contract-Intelligence-Assistant\\v1\\data\\questions.jsonl",
+  "judge_model_deployment": "gpt-4o",
+  "total_questions": 123,
+  "gold_non_blank_count": 86,
+  "predicted_non_blank_count": 106,
+  "scored_questions": 86,
+  "perfect_matches": 27,
+  "overall_judge_score_mean": 0.7279,
+  "categorical_llm_results": [
+    {
+      "data_type": "boolean",
+      "count": 25,
+      "metric": "correct_rate",
+      "value": 0.64
+    },
+    {
+      "data_type": "boolean",
+      "count": 25,
+      "metric": "judge_score_mean",
+      "value": 0.96
+    },
+    {
+      "data_type": "date",
+      "count": 1,
+      "metric": "correct_rate",
+      "value": 1.0
+    },
+    {
+      "data_type": "date",
+      "count": 1,
+      "metric": "judge_score_mean",
+      "value": 1.0
+    },
+    {
+      "data_type": "enum",
+      "count": 4,
+      "metric": "correct_rate",
+      "value": 0.5
+    },
+    {
+      "data_type": "enum",
+      "count": 4,
+      "metric": "judge_score_mean",
+      "value": 0.75
+    },
+    {
+      "data_type": "identifier",
+      "count": 10,
+      "metric": "correct_rate",
+      "value": 0.3
+    },
+    {
+      "data_type": "identifier",
+      "count": 10,
+      "metric": "judge_score_mean",
+      "value": 1.0
+    },
+    {
+      "data_type": "number",
+      "count": 8,
+      "metric": "correct_rate",
+      "value": 0.25
+    },
+    {
+      "data_type": "number",
+      "count": 8,
+      "metric": "judge_score_mean",
+      "value": 0.875
+    },
+    {
+      "data_type": "percentage",
+      "count": 10,
+      "metric": "correct_rate",
+      "value": 0.2
+    },
+    {
+      "data_type": "percentage",
+      "count": 10,
+      "metric": "judge_score_mean",
+      "value": 0.9
+    }
+  ],
+  "categorical_llm_results_combined": [
+    {
+      "data_type": "categorical_combined",
+      "count": 58,
+      "metric": "correct_rate",
+      "value": 0.4483
+    },
+    {
+      "data_type": "categorical_combined",
+      "count": 58,
+      "metric": "judge_score_mean",
+      "value": 0.931
+    }
+  ],
+  "descriptive_llm_results": [
+    {
+      "data_type": "list",
+      "count": 2,
+      "metric": "hybrid_text_score_mean",
+      "value": 0.2
+    },
+    {
+      "data_type": "list",
+      "count": 2,
+      "metric": "judge_score_mean",
+      "value": 0.2
+    },
+    {
+      "data_type": "list",
+      "count": 2,
+      "metric": "semantic_similarity_mean",
+      "value": 0.2
+    },
+    {
+      "data_type": "list",
+      "count": 2,
+      "metric": "token_f1_like_mean",
+      "value": 0.2
+    },
+    {
+      "data_type": "long_text",
+      "count": 19,
+      "metric": "hybrid_text_score_mean",
+      "value": 0.3316
+    },
+    {
+      "data_type": "long_text",
+      "count": 19,
+      "metric": "judge_score_mean",
+      "value": 0.3316
+    },
+    {
+      "data_type": "long_text",
+      "count": 19,
+      "metric": "semantic_similarity_mean",
+      "value": 0.3105
+    },
+    {
+      "data_type": "long_text",
+      "count": 19,
+      "metric": "token_f1_like_mean",
+      "value": 0.3342
+    },
+    {
+      "data_type": "text",
+      "count": 7,
+      "metric": "hybrid_text_score_mean",
+      "value": 0.2714
+    },
+    {
+      "data_type": "text",
+      "count": 7,
+      "metric": "judge_score_mean",
+      "value": 0.2714
+    },
+    {
+      "data_type": "text",
+      "count": 7,
+      "metric": "semantic_similarity_mean",
+      "value": 0.2571
+    },
+    {
+      "data_type": "text",
+      "count": 7,
+      "metric": "token_f1_like_mean",
+      "value": 0.2714
+    }
+  ],
+  "descriptive_llm_results_combined": [
+    {
+      "data_type": "descriptive_combined",
+      "count": 28,
+      "metric": "hybrid_text_score_mean",
+      "value": 0.3072
+    },
+    {
+      "data_type": "descriptive_combined",
+      "count": 28,
+      "metric": "judge_score_mean",
+      "value": 0.3072
+    },
+    {
+      "data_type": "descriptive_combined",
+      "count": 28,
+      "metric": "semantic_similarity_mean",
+      "value": 0.2893
+    },
+    {
+      "data_type": "descriptive_combined",
+      "count": 28,
+      "metric": "token_f1_like_mean",
+      "value": 0.3089
+    }
+  ]
+}

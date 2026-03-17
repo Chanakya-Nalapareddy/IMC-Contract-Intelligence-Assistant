@@ -1,0 +1,13 @@
+data_type,count,metric,value
+list,2,hybrid_text_score_mean,0.2
+list,2,judge_score_mean,0.2
+list,2,semantic_similarity_mean,0.2
+list,2,token_f1_like_mean,0.2
+long_text,19,hybrid_text_score_mean,0.3316
+long_text,19,judge_score_mean,0.3316
+long_text,19,semantic_similarity_mean,0.3105
+long_text,19,token_f1_like_mean,0.3342
+text,7,hybrid_text_score_mean,0.2714
+text,7,judge_score_mean,0.2714
+text,7,semantic_similarity_mean,0.2571
+text,7,token_f1_like_mean,0.2714

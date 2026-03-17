@@ -1,0 +1,986 @@
+[
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Execution Date of the Contract Agreement?",
+    "expected_type": "date",
+    "gold_value": "2023-10-30 00:00:00",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the AIA Form of Contract Agreement?",
+    "expected_type": "identifier",
+    "gold_value": "Custom Contract",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Contract Type for this Project? (Custom Text Answer)",
+    "expected_type": "enum",
+    "gold_value": "Guarantee Maximum Price (Custom Contract)",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Are there Consequential Damages on the Project?",
+    "expected_type": "boolean",
+    "gold_value": "No",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the are the Consequential Damages Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Article 4.10 - Contractor and Owner waive claims against each other for Consequential Damages.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Is there a mutual waiver of Consequential Damages in the Contract?",
+    "expected_type": "boolean",
+    "gold_value": "Yes",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Are there Liquidated Damages on the Project?",
+    "expected_type": "boolean",
+    "gold_value": "Yes",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the are the Liquidated Damages Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Article 4.9 - $2,000/day after a 14 cure period from the date of substantial completion.  LD's are capped at 50% of Contractor's Fee.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Article # for Consequential & Liquidated Damages?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the CCIP Rate % for this Project?",
+    "expected_type": "percentage",
+    "gold_value": "Excluded",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Is IMC or the Owner carrying the Builder's Risk Policy for this project?",
+    "expected_type": "enum",
+    "gold_value": "Owner",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Builders Risk %?",
+    "expected_type": "percentage",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Builders Risk Deductible? ($)",
+    "expected_type": "currency",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Builders Risk Waiver of Subrogation Appendix / Exhibit (Letter or Number) if the Owner Carries the Policy",
+    "expected_type": "identifier",
+    "gold_value": "TBD",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Is Professional Liability Insurance Required for this project?",
+    "expected_type": "boolean",
+    "gold_value": "Maybe",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Is Railroad Insurance Required for this project?",
+    "expected_type": "boolean",
+    "gold_value": "No",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Is Pollution Liability Insurance Required for this project?",
+    "expected_type": "boolean",
+    "gold_value": "No",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Is a Payment & Performance Bond Required for this project?",
+    "expected_type": "boolean",
+    "gold_value": "No",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Payment & Performance Bond Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Payment & Performance Bond Article Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Article 13.4 - If Contractor elects not to use SDI, a P&P bond is required for all subcontractors over a $1mm.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Contract Documents Definition & Incorporation Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Contract Documents Definition & Incorporation Definitions, Terms, & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Reference Article 1.1",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the IMC Design Document Review obligations Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Terms & Conditions / IMC's obligations for Design Document Review?",
+    "expected_type": "long_text",
+    "gold_value": "Article 3.4.2 - Contractor has reviewed all documents as identified in 1.1.2.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Submittal Alternates, Substitutions, & Contract Document Deviations Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Submittal Alternates, Substitutions, & Contract Document Deviations Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Not Specified but alternates & substitutions are permitting.  Contractor shall submit product data and costs adjustments for approval.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Do we have a Precon Agreement?",
+    "expected_type": "boolean",
+    "gold_value": "No",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Is Precon Reimbursable beyond the Agreement?",
+    "expected_type": "boolean",
+    "gold_value": "No",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Precon Reimbursable Contract Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Precon Reimbursable Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Original precon was a NTE of $345,352.  Additional precon costs were included in the GMP Submission to cover overage.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Subcontractor Bid Requirements Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Are the Subcontractor Bids / Bid Tabs Required to be Provided to Owner?",
+    "expected_type": "boolean",
+    "gold_value": "Yes",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Subcontractor Required Number of Bids per package?",
+    "expected_type": "number",
+    "gold_value": "Not indicated",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Subcontractor Bids / Bid Tabs Provided to Owner Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Does a Subcontractor Award have to be Approved by Owner?",
+    "expected_type": "boolean",
+    "gold_value": "Yes",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Can Owner Mandate Specific Subcontractors be used?",
+    "expected_type": "boolean",
+    "gold_value": "Yes",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Is IMC Entitled a PCCO for Owner Selected / Mandated Subcontractors?",
+    "expected_type": "boolean",
+    "gold_value": "Yes",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the GMP Shared Savings Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the GMP Shared Savings Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "None, all savings is returned to the owner.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the GMP Buyout Savings Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Do GMP Buyout Savings need to be Reported to Owner?",
+    "expected_type": "boolean",
+    "gold_value": "Yes",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Must the GMP Buyout Savings be Shown on Monthly Schedule of Values?",
+    "expected_type": "boolean",
+    "gold_value": "No",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the GMP Buyout Savings Definition & Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Article 7.4 - Buyout savings is the aggregate between the initial value (prior to CO's) of commitments and the corresponding GMP trade value.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Must Use of Buyout Savings for Trade Costs be Approved by Owner?",
+    "expected_type": "boolean",
+    "gold_value": "Yes",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the General Conditions Rate Sheet Appendix / Exhibit (A,B,C,D, Etc.)?",
+    "expected_type": "identifier",
+    "gold_value": "Exhibit D",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the General Conditions Rate Sheet Year?",
+    "expected_type": "number",
+    "gold_value": "2023",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Cost of the Work Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the definition for the Cost of the Work?",
+    "expected_type": "text",
+    "gold_value": "Article 8 - Costs necessary incurred in the proper performance of the work and paid by the Contractor.  Such costs shall be actual costs and shall be at rates per Exhibit C and not higher than the standard paid in the locality of the work........The costs of work shall be reimbursed to the contractor, subject to the GMP price.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Contingency Usage Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Contingency Usage Terms and Conditions?",
+    "expected_type": "long_text",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Contingency Usage Owner Notification Requirements?",
+    "expected_type": "text",
+    "gold_value": "Article 7 - Monthly detailed report of usage",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the General Conditions Type?",
+    "expected_type": "enum",
+    "gold_value": "Other",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the General Conditions Billing Backup Requirements?",
+    "expected_type": "text",
+    "gold_value": "Provided detailed listing of hours and rates",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Are there General Conditions / Requirements Owner Audit Provisions?",
+    "expected_type": "boolean",
+    "gold_value": "Yes",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the definition of General Conditions for this project? (01 v 50 Code Split)",
+    "expected_type": "enum",
+    "gold_value": "Exhibit C",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Change Markup - Subcontractor %?",
+    "expected_type": "percentage",
+    "gold_value": "Exhibit A - Article N - 15%",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Change Markup - Tiered Subcontractor %?",
+    "expected_type": "percentage",
+    "gold_value": "0.15",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Change Markup - IMC Fee %?",
+    "expected_type": "percentage",
+    "gold_value": "0.03",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Change Markup - CCIP %?",
+    "expected_type": "percentage",
+    "gold_value": "N/A - Excluded",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Change Markup - Warranty %?",
+    "expected_type": "percentage",
+    "gold_value": "Not identified",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Change Markup - General Conditions %?",
+    "expected_type": "percentage",
+    "gold_value": "Can be included on case by case basis.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Change Markup - CM Insurance %?",
+    "expected_type": "percentage",
+    "gold_value": "Not identified",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Change Markup - P & P Bond %?",
+    "expected_type": "percentage",
+    "gold_value": "SDI @ 1.2%",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Adverse Weather Days Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Adverse Weather Days Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Silent on weather days",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Within how many days must we notify the owner of adverse weather day impacts?",
+    "expected_type": "number",
+    "gold_value": "Silent on notification to adverse weather delays",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "How many Adverse Weather Days Included in Contract Agreement?",
+    "expected_type": "number",
+    "gold_value": "Silent on weather days",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Schedule Requirements Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Schedule Requirements Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Reference Article 4 - Substantial completion shall be achieved per GMP Schedule milestone.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Daily Log & Manpower Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Daily Log & Manpower Terms and Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Silent on Daily Log & Manpower T&C's",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Schedule Delay / Time Issues Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Schedule Delay / Time Issues Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Reference Article 4.5 through 4.7\n4.5 - Delay force majeure\n4.6 - Cost & Mitigation of contractor delays\n4.7 - Owner Delays",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "How much Schedule Delay / Time Issues Notice to Owner Requirements (Within What # of Days)?",
+    "expected_type": "number",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Schedule Acceleration Directed by Owner Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Schedule Acceleration Directed by Owner Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Schedule Definitions of Days (Work / Calendar / Holidays / Etc.)?",
+    "expected_type": "text",
+    "gold_value": "Does not identify",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Substantial Completion Article #?",
+    "expected_type": "identifier",
+    "gold_value": "Article 4.1",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Substantial Completion Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Article 4.1 - Obtain substantial completion per the GMP Amendment #2 schedule",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Final Completion Definition Article #?",
+    "expected_type": "identifier",
+    "gold_value": "Article 4.2",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Final Completion Definition?",
+    "expected_type": "text",
+    "gold_value": "Article 4.2 - Achieve within (90) days after Substantial Completion",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Are there Project Interim Milestones?",
+    "expected_type": "boolean",
+    "gold_value": "No",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Project Interim Milestones List",
+    "expected_type": "list",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Payment Terms (Progress & Final) Article #?",
+    "expected_type": "identifier",
+    "gold_value": "Article 11",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Payment Terms Retainage %?",
+    "expected_type": "percentage",
+    "gold_value": "10% until 50% of work complete.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Payment Terms for Retainage Reduction Article #?",
+    "expected_type": "identifier",
+    "gold_value": "Article 11.3.1",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Payment Terms & Conditions for Retainage Reduction?",
+    "expected_type": "long_text",
+    "gold_value": "Article 11.3.2 - Owner to provide consideration to early release of retainage.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Are there Payment Terms for Retainage on General Conditions?",
+    "expected_type": "boolean",
+    "gold_value": "No",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Are there Payment Terms for Retainage on Fee?",
+    "expected_type": "boolean",
+    "gold_value": "No",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Payment Terms for Offsite Stored Material Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Terms and Conditions for Payment of Offsite Stored Material?",
+    "expected_type": "long_text",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "How many days within Approved Application for Owner Payment?",
+    "expected_type": "number",
+    "gold_value": "30 calendar days following the approval of App for Payment",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Article # for IMC's Stop Work Ability for late Owner payment?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Terms & Conditions for IMC's Stop Work Ability for late Owner payment?",
+    "expected_type": "long_text",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Dispute Resolution Article #?",
+    "expected_type": "identifier",
+    "gold_value": "Article 12.2 Claims & Disputes",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the CM Suspension / Termination Article #?",
+    "expected_type": "identifier",
+    "gold_value": "Article 14 Termination",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "How many days notice must the Owner give IMC for CM Termination for Convenience?",
+    "expected_type": "number",
+    "gold_value": "7 calendar day notice",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "How many days notice must the Owner give IMC for CM Termination for Cause?",
+    "expected_type": "number",
+    "gold_value": "7 calendar day notice",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Direct Negotiation Duration (# of Days)?",
+    "expected_type": "number",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Mediation Duration (# of Days)?",
+    "expected_type": "number",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Mediator Selection Duration (# of Days)?",
+    "expected_type": "number",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "How many days after Mediator Selection is the Mediation Session?",
+    "expected_type": "number",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Warranty Terms & Conditions Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Warranty Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Article 15.10 Warranty - 1 year from Substantial Completion",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the As-Built / Record Documents Requirements Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the As-Built / Record Documents Requirements?",
+    "expected_type": "long_text",
+    "gold_value": "At end of project, the Contractor shall turn-over one (1) complete set of asbuilts.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Final Payment Article #?",
+    "expected_type": "identifier",
+    "gold_value": "Article 11.4",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Final Payment Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "(30) days after acceptance of certificate of final completion by Architect.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Concealed / Unknown / Hazardous Conditions Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Concealed / Unknown / Hazardous Conditions Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": "Article 7 permits the use of Contingency, Allowances and Buyout Savings to fund for concealed and unknown items.",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "How much Concealed / Unknown / Hazardous Conditions Notice to Owner Requirements (Within What # of Days)?",
+    "expected_type": "number",
+    "gold_value": "Article 12.2.6 - (5) days after found",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "List the Owner / Project Required Reports",
+    "expected_type": "list",
+    "gold_value": "Cost Reports\nProject Reports (Monthly Report)",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Is Owner Allowed to Occupy Building Prior to Substantial Completion Article?",
+    "expected_type": "boolean",
+    "gold_value": "No",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "If the Owner is Allowed to Occupy Building Prior to Substantial Completion, what is the Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Hazardous Materials - IMC is Only Responsible Content Created by Us or our Subcontractors",
+    "expected_type": "boolean",
+    "gold_value": "Yes",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Hazardous Materials - IMC is Entitled to Stop Work, and Recover Cost for Delay for Encountered Hazardous Material",
+    "expected_type": "boolean",
+    "gold_value": "Yes",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Labor?",
+    "expected_type": "text",
+    "gold_value": "Non-Union",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Is IMC Responsible to Recover Delay (Cost & Schedule) for labor related work stoppage; strike etc.?",
+    "expected_type": "boolean",
+    "gold_value": "Yes",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "List all Contract Agreement Exhibit / Appendix (Letter / Number /Name)",
+    "expected_type": "list",
+    "gold_value": "Exhibit A - GMP Amendment\nExhibit B - Contractor's Scope of Work\nExhibit C - Contractor's Guaranteed Maximum Price Proposal\nExhibit D - Owner Change Order Request Document\nExhibit E - Owner Change Order Document\nExhibit F - Request for Substitution\nExhibit G - Field Work Authorization Form\nExhibit H - Contractor's Progress Payment Cert & Waiver of Claims and Liens\nExhibit H2 - Contractor's Final Payment Cert & Waivers of Claims and Liens\nExhibit H3 - Subcontractor's Progress Payment Cert & Waivers of Claims and Liens\nExhibit H4 - Subcontractor's Final Payment Cert & Waivers of Claims and Liens\nExhibit I - Subcontractor Performance Bond\nExhibit I2 - Subcontractor Labor and Material Payment Bond\nExhibit I3 - Dual Obligee Rider for Subcontract Surety Bonds\nExhibit J - Certificate of Final Completion\nExhibit K - Contractor's Warranty Certificate\nExhibit L - Project Description - Not used\nExhibit M - Legal Description of Site - Not used\nExhibit N - Key Owners Consultants - \nExhibit O - Project Schedule \nExhibit P - Contractor's Org Chart\nExhibit Q - Contractor's PreCon Cost Proposal\nExhibit R - Contractor's Construction Cost Proposal\nExhibit S - Contractor's Markup on Changes\nExhibit T - Not Used\nExhibit U - Not Used\nExhibit V - Not Used\nExhibit W - Reference Documents\nExhibit X - Not Used\nExhibit Y - Not Used",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Are there any Contract Agreement / Specifications Containing BIM Requirements?",
+    "expected_type": "boolean",
+    "gold_value": "No",
+    "status": "ok"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What is the Cyber Indemnification / Hacking Article #?",
+    "expected_type": "identifier",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "What are the Cyber Indemnification / Hacking Article Terms & Conditions?",
+    "expected_type": "long_text",
+    "gold_value": null,
+    "status": "blank_gold"
+  },
+  {
+    "contract_file_name": "Contract__12.pdf",
+    "contract_id": "Contract__12",
+    "question": "Who is Responsible to pay the Builders Risk Deductible? (May Vary Depending on Amount)",
+    "expected_type": "text",
+    "gold_value": "Article 13.3 - Owner",
+    "status": "ok"
+  }
+]
